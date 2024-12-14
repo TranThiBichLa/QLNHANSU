@@ -1,0 +1,149 @@
+﻿<UserControl x:Class="QLNHANSU.XttCongTac"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QLNHANSU"
+             mc:Ignorable="d" 
+            Height="810" Width="1245">
+    <Grid Background="#F5F5F5" Margin="0,0,10,0" >
+        <!-- Border with Gradient Background -->
+        <Border CornerRadius="20" Padding="20" Margin="13,10,70,20">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FF72CCF6" Offset="0"/>
+                    <!-- Pink -->
+                    <GradientStop Color="#FF0F4DCE" Offset="1"/>
+                    <!-- Purple -->
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <!-- Define two columns -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="497*" />
+                    <ColumnDefinition Width="615*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Define rows -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                </Grid.RowDefinitions>
+                <Border Background="#FF0F4DCE" Padding="10" Margin="-20,-20,280,10" CornerRadius="20,0,20,0">
+                    <TextBlock Text="Thông Tin Công Tác" FontSize="20" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+                <!-- First Column -->
+                <!-- Circle for Image or Placeholder -->
+                <Border CornerRadius="100" Width="200" Height="200" Background="#CFCFCF" 
+                        Grid.Row="1" Grid.RowSpan="3" 
+                        HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0">
+                    <TextBlock Text="Avatar" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Gray" FontWeight="Bold"/>
+                </Border>
+
+                <!-- Phòng ban -->
+                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="0" Margin="0,20,0,20">
+                    <TextBlock Text="Phòng Ban:" 
+                               Width="144" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black"/>
+                    <TextBox Width="233" Height="40" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Bộ phận -->
+                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="0" Margin="0,5,0,5">
+                    <TextBlock Text="Bộ Phận:" 
+                               Width="144" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black"/>
+                    <TextBox Width="233" Height="44" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Chức vụ -->
+                <StackPanel Orientation="Horizontal" Grid.Row="6" Grid.Column="0" Margin="0,20,0,5">
+                    <TextBlock Text="Chức Vụ:" 
+                               Width="144" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black"/>
+                    <TextBox Width="233" Height="44" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Second Column -->
+                <!-- Mã nhân viên -->
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="0,5,0,5">
+                    <TextBlock Text="Mã Nhân Viên:" 
+                               Width="193" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               Foreground="Black" Margin="10,0,0,0" FontWeight="Bold"/>
+                    <TextBox Width="300" Height="44" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Tên nhân viên -->
+                <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="0,5,0,5">
+                    <TextBlock Text="Tên Nhân Viên:" 
+                               Width="193" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBox Width="300" Height="44" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Mã hợp đồng -->
+                <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" Margin="0,5,0,5">
+                    <TextBlock Text="Mã Hợp Đồng:" 
+                               Width="193" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBox Width="300" Height="44" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Ngày quyết định -->
+                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" Margin="0,5,0,5">
+                    <TextBlock Text="Ngày Quyết Định:" 
+                               Width="193" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black" Margin="10,0,0,0"/>
+                    <DatePicker Width="300" Height="44" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Tình trạng -->
+                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" Margin="0,5,0,5">
+                    <TextBlock Text="Tình Trạng:" 
+                               Width="193" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBox Width="300" Height="37" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Hệ số lương -->
+                <StackPanel Orientation="Horizontal" Grid.Row="6" Grid.Column="1" Margin="0,20,0,5">
+                    <TextBlock Text="Hệ Số Lương:" 
+                               Width="193" 
+                               VerticalAlignment="Center" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBox Width="300" Height="44" FontSize="20"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
