@@ -1,0 +1,11 @@
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\BLL.dll
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\BLL.pdb
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\DAL.dll
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\DTO.dll
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\DAL.pdb
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\DTO.pdb
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.dll
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.pdb
