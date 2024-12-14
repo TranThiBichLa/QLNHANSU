@@ -1,0 +1,6 @@
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\bin\Debug\DTO.dll
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\bin\Debug\DTO.pdb
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.dll
+D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.pdb
