@@ -11,6 +11,5 @@ namespace DTO
         public int iMaQuyen { get; set; }
         public string sTenQuyen { get; set; }
 
-
     }
 }

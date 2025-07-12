@@ -1,0 +1,80 @@
+﻿<Window x:Class="QLNHANSU.EditBaoHiem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLNHANSU"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="Chỉnh sửa Bảo Hiểm Y Tế" Height="500" Width="700" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- Border for rounded corners -->
+        <Border CornerRadius="20" Padding="20">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FF72CCF6" Offset="0"/>
+                    <GradientStop Color="#FF72CCF6" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <!-- Header -->
+                    <RowDefinition Height="100"/>
+                    <!-- Số BHYT -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Ngày cấp -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Giá trị sử dụng -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Ngày hết hạn -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Nơi khám bệnh -->
+                    <RowDefinition Height="80"/>
+                    <!-- Button -->
+                </Grid.RowDefinitions>
+
+                <!-- Header -->
+                <Border Background="#FF0F4DCE" CornerRadius="20,20,0,0" Margin="-20,-21,-20,2">
+                    <TextBlock Text="Bảo Hiểm Y Tế" FontSize="24" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Border>
+
+                <!-- Số BHYT -->
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,50,0,10">
+                    <TextBlock Text="Số bảo hiểm y tế:" Width="180" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" />
+                    <TextBox x:Name="txtSoBHYT" Width="400" Height="44" FontSize="16" IsReadOnly="True" />
+                </StackPanel>
+
+                <!-- Ngày cấp -->
+                <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,10">
+                    <TextBlock Text="Ngày cấp:" Width="180" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" />
+                    <DatePicker x:Name="dpNgayCap" Width="400" Height="44" FontSize="20" />
+                </StackPanel>
+
+                <!-- Giá trị sử dụng -->
+                <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="0,10">
+                    <TextBlock Text="Giá trị sử dụng:" Width="180" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" />
+                    <DatePicker x:Name="txtGiaTriSuDung" Width="400" Height="44" FontSize="16" />
+                </StackPanel>
+
+                <!-- Ngày hết hạn -->
+                <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="0,10">
+                    <TextBlock Text="Ngày hết hạn:" Width="180" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" />
+                    <DatePicker x:Name="dpNgayHetHan" Width="400" Height="44" FontSize="16" />
+                </StackPanel>
+
+                <!-- Nơi khám bệnh -->
+                <StackPanel Orientation="Horizontal" Grid.Row="5" Margin="0,10">
+                    <TextBlock Text="Nơi khám bệnh:" Width="180" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" />
+                    <TextBox x:Name="txtNoiKhamBenh" Width="400" Height="43" FontSize="16" />
+                </StackPanel>
+
+                <!-- Button -->
+                <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+                    <Button Content="Lưu Thay Đổi" Width="150" Height="40" FontSize="16" Background="#FF0F4DCE" Foreground="White" BorderThickness="0" Click="LuuThayDoiBaoHiem_Button" />
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

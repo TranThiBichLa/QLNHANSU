@@ -7,3 +7,36 @@ D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DAL\bin\Debug\D
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DAL\obj\Debug\DAL.dll
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DAL\obj\Debug\DAL.pdb
+D:\QLNHANSU\DAL\bin\Debug\DAL.dll
+D:\QLNHANSU\DAL\bin\Debug\DAL.pdb
+D:\QLNHANSU\DAL\bin\Debug\DTO.dll
+D:\QLNHANSU\DAL\bin\Debug\DTO.pdb
+D:\QLNHANSU\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\QLNHANSU\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\QLNHANSU\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\QLNHANSU\DAL\obj\Debug\DAL.dll
+D:\QLNHANSU\DAL\obj\Debug\DAL.pdb
+D:\QLNHANSU (1)\DAL\bin\Debug\DAL.dll
+D:\QLNHANSU (1)\DAL\bin\Debug\DAL.pdb
+D:\QLNHANSU (1)\DAL\bin\Debug\DTO.dll
+D:\QLNHANSU (1)\DAL\bin\Debug\DTO.pdb
+D:\QLNHANSU (1)\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\QLNHANSU (1)\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\QLNHANSU (1)\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\QLNHANSU (1)\DAL\obj\Debug\DAL.dll
+D:\QLNHANSU (1)\DAL\obj\Debug\DAL.pdb
+D:\QLNHANSU_FINAL\DAL\bin\Debug\DAL.dll
+D:\QLNHANSU_FINAL\DAL\bin\Debug\DAL.pdb
+D:\QLNHANSU_FINAL\DAL\bin\Debug\DTO.dll
+D:\QLNHANSU_FINAL\DAL\bin\Debug\LiveCharts.dll
+D:\QLNHANSU_FINAL\DAL\bin\Debug\LiveCharts.Wpf.dll
+D:\QLNHANSU_FINAL\DAL\bin\Debug\DTO.pdb
+D:\QLNHANSU_FINAL\DAL\bin\Debug\LiveCharts.pdb
+D:\QLNHANSU_FINAL\DAL\bin\Debug\LiveCharts.xml
+D:\QLNHANSU_FINAL\DAL\bin\Debug\LiveCharts.Wpf.pdb
+D:\QLNHANSU_FINAL\DAL\bin\Debug\LiveCharts.Wpf.xml
+D:\QLNHANSU_FINAL\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\QLNHANSU_FINAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\QLNHANSU_FINAL\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\QLNHANSU_FINAL\DAL\obj\Debug\DAL.dll
+D:\QLNHANSU_FINAL\DAL\obj\Debug\DAL.pdb

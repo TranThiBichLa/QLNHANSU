@@ -12,9 +12,7 @@
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#FF72CCF6" Offset="0"/>
-                    <!-- Pink -->
                     <GradientStop Color="#FF0F4DCE" Offset="1"/>
-                    <!-- Purple -->
                 </LinearGradientBrush>
             </Border.Background>
             <Grid>
@@ -39,107 +37,23 @@
                 <Border Background="#FF0F4DCE" Padding="10" Margin="-20,-20,270,10" CornerRadius="20,0,20,0">
                     <TextBlock Text="Thông Tin Hợp Đồng Lao Động" FontSize="20" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
                 </Border>
-                <!-- First Column -->
-                <!-- Mã nhân viên -->
-                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="0,5,0,5">
-                    <TextBlock Text="Mã Nhân Viên:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
 
-                <!-- Mã hợp đồng -->
-                <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Margin="0,5,0,5">
-                    <TextBlock Text="Mã Hợp Đồng:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Ngày ký hợp đồng -->
-                <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Margin="0,5,0,5">
-                    <TextBlock Text="Ngày Ký Hợp Đồng:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <DatePicker Width="311" Height="40" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Ngày bắt đầu -->
-                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="0" Margin="0,5,0,5">
-                    <TextBlock Text="Ngày Bắt Đầu:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <DatePicker Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Ngày kết thúc -->
-                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="0" Margin="0,5,0,5">
-                    <TextBlock Text="Ngày Kết Thúc:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <DatePicker Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Second Column -->
-                <!-- Mã phòng ban -->
-                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="0,5,0,5">
-                    <TextBlock Text="Mã Phòng Ban:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Mã bộ phận -->
-                <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="0,5,0,5">
-                    <TextBlock Text="Mã Bộ Phận:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Mã chức vụ -->
-                <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" Margin="0,5,0,5">
-                    <TextBlock Text="Mã Chức Vụ:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Mức lương cơ bản -->
-                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" Margin="0,5,0,5">
-                    <TextBlock Text="Mức Lương Cơ Bản:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
-
-                <!-- Tình trạng -->
-                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" Margin="0,5,0,5">
-                    <TextBlock Text="Tình Trạng:" 
-                               Width="204" 
-                               VerticalAlignment="Center" 
-                               Foreground="#FF100F0F" 
-                               FontSize="20" FontWeight="Bold"/>
-                    <TextBox Width="311" Height="44" FontSize="20"/>
-                </StackPanel>
+                <!-- DataGrid -->
+                <DataGrid x:Name="dgHDLD" Grid.Row="1" Grid.RowSpan="6" Grid.ColumnSpan="2" AutoGenerateColumns="False" IsReadOnly="True" FontSize="20" FontWeight="Bold">
+                    <!-- Define columns for DataGrid -->
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Mã Nhân Viên" Binding="{Binding MaNV}" Width="150"/>
+                        <DataGridTextColumn Header="Mã Hợp Đồng" Binding="{Binding MaHD}" Width="150"/>
+                        <DataGridTextColumn Header="Ngày Ký Hợp Đồng" Binding="{Binding NgayKyHD}" Width="190"/>
+                        <DataGridTextColumn Header="Ngày Bắt Đầu" Binding="{Binding NGBD}" Width="150"/>
+                        <DataGridTextColumn Header="Ngày Kết Thúc" Binding="{Binding NGKT}" Width="150"/>
+                        <DataGridTextColumn Header="Mã Phòng Ban" Binding="{Binding MaPB}" Width="150"/>
+                        <DataGridTextColumn Header="Mã Bộ Phận" Binding="{Binding MaBP}" Width="150"/>
+                        <DataGridTextColumn Header="Mã Chức Vụ" Binding="{Binding MaCV}" Width="150"/>
+                        <DataGridTextColumn Header="Mức Lương Cơ Bản" Binding="{Binding MucLuongCoBan}" Width="150"/>
+                        <DataGridTextColumn Header="Tình Trạng" Binding="{Binding TinhTrang}" Width="150"/>
+                    </DataGrid.Columns>
+                </DataGrid>
             </Grid>
         </Border>
     </Grid>

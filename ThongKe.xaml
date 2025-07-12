@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="QLNHANSU.ThongKe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             mc:Ignorable="d" 
+             Height="810" Width="1245"
+             Foreground="Black">
+
+    <Grid Background="Transparent" Margin="0">
+        <!-- Tab Control -->
+        <TabControl Margin="0,-23" Foreground="Black">
+            <!--Cơ bản-->
+            <TabItem Header="Cơ Bản" Style="{StaticResource TabItemStyle}" VerticalAlignment="Center" Width="200">
+                <Grid Height="727">
+                    <!-- Main Layout -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <!-- ComboBox chọn năm -->
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10">
+                        <TextBlock Text="Năm:" VerticalAlignment="Center" FontSize="16" Margin="0,0,10,0" Foreground="Black"/>
+                        <ComboBox x:Name="cbNamCoBan" Width="150" SelectionChanged="cbNamCoBan_SelectionChanged" Foreground="Black">
+                            <ComboBoxItem Content="2024"/>
+                            <ComboBoxItem Content="2025"/>
+                            <ComboBoxItem Content="2026"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <lvc:CartesianChart x:Name="chartCoBan" Grid.Row="1" Width="1200" Height="600" Margin="20" DataTooltip="{x:Null}" />
+                </Grid>
+            </TabItem>
+
+            <!-- Vị trí -->
+            <TabItem Header="Vị trí" Style="{StaticResource TabItemStyle}" VerticalAlignment="Center" Width="200">
+                <Grid Height="727">
+                    <!-- Main Layout -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <!-- ComboBox -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Margin="10">
+                            <TextBlock Text="Năm:" VerticalAlignment="Center" FontSize="16" Margin="0,0,10,0" Foreground="Black"/>
+                            <ComboBox x:Name="cbNamViTri" Width="150" SelectionChanged="cbNamViTri_SelectionChanged" Foreground="Black">
+                                <ComboBoxItem Content="2024"/>
+                                <ComboBoxItem Content="2025"/>
+                                <ComboBoxItem Content="2026"/>
+                            </ComboBox>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Margin="100,0,0,0">
+                            <TextBlock Text="Vị Trí:" VerticalAlignment="Center" FontSize="16" Margin="0,0,10,0" Foreground="Black"/>
+                            <ComboBox x:Name="cbViTri" Width="150" SelectionChanged="cbViTri_SelectionChanged" Foreground="Black">
+                                <ComboBoxItem Content="Phòng Ban"/>
+                                <ComboBoxItem Content="Bộ Phận"/>
+                                <ComboBoxItem Content="Chức vụ"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </Grid>
+                    <lvc:CartesianChart x:Name="chartViTri" Grid.Row="1" Width="1200" Height="600" Margin="20" DataTooltip="{x:Null}" />
+                </Grid>
+            </TabItem>
+
+            <!-- Lương -->
+            <TabItem Header="Lương" Style="{StaticResource TabItemStyle}" VerticalAlignment="Center" Width="200">
+                <Grid Height="727">
+                    <!-- Main Layout -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <!-- ComboBox chọn năm -->
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10">
+                        <TextBlock Text="Năm:" VerticalAlignment="Center" FontSize="16" Margin="0,0,10,0" Foreground="Black"/>
+                        <ComboBox x:Name="cbNamLuong" Width="150" SelectionChanged="cbNamLuong_SelectionChanged" Foreground="Black">
+                            <ComboBoxItem Content="2024"/>
+                            <ComboBoxItem Content="2025"/>
+                            <ComboBoxItem Content="2026"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <lvc:CartesianChart x:Name="chartLuong" Grid.Row="1" Width="1200" Height="600" Margin="20" DataTooltip="{x:Null}"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

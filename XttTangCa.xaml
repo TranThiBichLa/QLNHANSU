@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="QLNHANSU.XttTangCa"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QLNHANSU"
+             mc:Ignorable="d" 
+            Height="810" Width="1245">
+    <Grid Background="White"  Width="1245" Height="810">
+        <!-- Border with Gradient Background -->
+        <Border CornerRadius="20" Padding="20" Margin="13,0,70,10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FF72CCF6" Offset="0"/>
+                    <GradientStop Color="#FF0F4DCE" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <!-- Define two columns -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="577*" />
+                    <ColumnDefinition Width="545*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Define row structure -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Header -->
+                <Border Background="#FF0F4DCE" Padding="10" Margin="-20,-20,345,10" CornerRadius="20,0,20,0">
+                    <TextBlock Text="Thông Tin Tăng Ca" FontSize="20" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+
+                <!-- DataGrid -->
+                <DataGrid x:Name="dgHDLD" Grid.Row="1" Grid.RowSpan="6" Grid.ColumnSpan="2" AutoGenerateColumns="False" IsReadOnly="True" FontSize="20" FontWeight="Bold">
+                    <!-- Define columns for DataGrid -->
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Mã Tăng Ca" Binding="{Binding MaTangCa}" Width="150"/>
+                        <DataGridTextColumn Header="Ngày tăng Ca" Binding="{Binding NgayTangCa}" Width="300"/>
+                        <DataGridTextColumn Header="Số Giờ Tăng Ca" Binding="{Binding SoGioTangCa}" Width="190"/>
+                        <DataGridTextColumn Header="Mã Loại Ca" Binding="{Binding MaLoaiCa}" Width="150"/>
+                        <DataGridTextColumn Header="Hệ Số Loại Ca" Binding="{Binding HeSoLoaiCa }" Width="150"/>
+                        <DataGridTextColumn Header="Lương Tăng Ca " Binding="{Binding LuongTangCa}" Width="150"/>
+                   </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

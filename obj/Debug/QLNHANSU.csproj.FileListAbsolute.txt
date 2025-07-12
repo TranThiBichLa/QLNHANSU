@@ -1,0 +1,269 @@
+D:\QLNHANSU\obj\Debug\QLNHANSU.csproj.AssemblyReference.cache
+D:\QLNHANSU\obj\Debug\DangKi1.baml
+D:\QLNHANSU\obj\Debug\CapNhat.g.cs
+D:\QLNHANSU\obj\Debug\CongTac.g.cs
+D:\QLNHANSU\obj\Debug\DangKi1.g.cs
+D:\QLNHANSU\obj\Debug\DangNhap.g.cs
+D:\QLNHANSU\obj\Debug\DashBoard1.g.cs
+D:\QLNHANSU\obj\Debug\DashBoard.g.cs
+D:\QLNHANSU\obj\Debug\QuanLyThongTin.g.cs
+D:\QLNHANSU\obj\Debug\XetDuyetThongTin.g.cs
+D:\QLNHANSU\obj\Debug\XttCoBan.g.cs
+D:\QLNHANSU\obj\Debug\XttCongTac.g.cs
+D:\QLNHANSU\obj\Debug\XttHDLD.g.cs
+D:\QLNHANSU\obj\Debug\App.g.cs
+D:\QLNHANSU\obj\Debug\QLNHANSU_MarkupCompile.cache
+D:\QLNHANSU\obj\Debug\QLNHANSU_MarkupCompile.lref
+D:\QLNHANSU\bin\Debug\QLNHANSU.exe.config
+D:\QLNHANSU\bin\Debug\QLNHANSU.exe
+D:\QLNHANSU\bin\Debug\QLNHANSU.pdb
+D:\QLNHANSU\bin\Debug\MaterialDesignColors.dll
+D:\QLNHANSU\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\QLNHANSU\bin\Debug\MaterialDesignColors.pdb
+D:\QLNHANSU\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\QLNHANSU\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\QLNHANSU\obj\Debug\App.baml
+D:\QLNHANSU\obj\Debug\CapNhat.baml
+D:\QLNHANSU\obj\Debug\CongTac.baml
+D:\QLNHANSU\obj\Debug\DangNhap.baml
+D:\QLNHANSU\obj\Debug\DashBoard1.baml
+D:\QLNHANSU\obj\Debug\DashBoard.baml
+D:\QLNHANSU\obj\Debug\QuanLyThongTin.baml
+D:\QLNHANSU\obj\Debug\XetDuyetThongTin.baml
+D:\QLNHANSU\obj\Debug\XttCoBan.baml
+D:\QLNHANSU\obj\Debug\XttCongTac.baml
+D:\QLNHANSU\obj\Debug\XttHDLD.baml
+D:\QLNHANSU\obj\Debug\QLNHANSU.g.resources
+D:\QLNHANSU\obj\Debug\QLNHANSU.Properties.Resources.resources
+D:\QLNHANSU\obj\Debug\QLNHANSU.csproj.GenerateResource.cache
+D:\QLNHANSU\obj\Debug\QLNHANSU.csproj.CoreCompileInputs.cache
+D:\QLNHANSU\obj\Debug\QLNHANSU.csproj.Up2Date
+D:\QLNHANSU\obj\Debug\QLNHANSU.exe
+D:\QLNHANSU\obj\Debug\QLNHANSU.pdb
+D:\QLNHANSU\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\QLNHANSU\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\QLNHANSU\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\QLNHANSU\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\QLNHANSU\bin\Debug\DAL.dll
+D:\QLNHANSU\bin\Debug\DTO.dll
+D:\QLNHANSU\bin\Debug\DAL.pdb
+D:\QLNHANSU\bin\Debug\DTO.pdb
+D:\QLNHANSU\bin\Debug\BLL.dll
+D:\QLNHANSU\bin\Debug\BLL.pdb
+D:\QLNHANSU\bin\Debug\BLL.dll.config
+D:\QLNHANSU\obj\Debug\QLNHANSU.Resource1.resources
+D:\QLNHANSU\obj\Debug\ImageWindow.baml
+D:\QLNHANSU\obj\Debug\ImageWindow.g.cs
+D:\QLNHANSU\obj\Debug\EditInfo.g.cs
+D:\QLNHANSU\obj\Debug\EditInfo.baml
+D:\QLNHANSU\obj\Debug\EnterPasswordWindow.baml
+D:\QLNHANSU\obj\Debug\EnterPasswordWindow.g.cs
+D:\QLNHANSU\obj\Debug\EditHopDong.g.cs
+D:\QLNHANSU\obj\Debug\EditHopDong.baml
+D:\QLNHANSU\obj\Debug\ChamCong.baml
+D:\QLNHANSU\obj\Debug\ChamCong.g.cs
+D:\QLNHANSU (1)\bin\Debug\QLNHANSU.exe.config
+D:\QLNHANSU (1)\bin\Debug\QLNHANSU.exe
+D:\QLNHANSU (1)\bin\Debug\QLNHANSU.pdb
+D:\QLNHANSU (1)\bin\Debug\BLL.dll
+D:\QLNHANSU (1)\bin\Debug\DAL.dll
+D:\QLNHANSU (1)\bin\Debug\DTO.dll
+D:\QLNHANSU (1)\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\QLNHANSU (1)\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\QLNHANSU (1)\bin\Debug\MaterialDesignColors.dll
+D:\QLNHANSU (1)\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\QLNHANSU (1)\bin\Debug\BLL.pdb
+D:\QLNHANSU (1)\bin\Debug\BLL.dll.config
+D:\QLNHANSU (1)\bin\Debug\DTO.pdb
+D:\QLNHANSU (1)\bin\Debug\DAL.pdb
+D:\QLNHANSU (1)\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\QLNHANSU (1)\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\QLNHANSU (1)\bin\Debug\MaterialDesignColors.pdb
+D:\QLNHANSU (1)\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\QLNHANSU (1)\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.csproj.AssemblyReference.cache
+D:\QLNHANSU (1)\obj\Debug\DangKi1.baml
+D:\QLNHANSU (1)\obj\Debug\EnterPasswordWindow.baml
+D:\QLNHANSU (1)\obj\Debug\ImageWindow.baml
+D:\QLNHANSU (1)\obj\Debug\CapNhat.g.cs
+D:\QLNHANSU (1)\obj\Debug\CongTac.g.cs
+D:\QLNHANSU (1)\obj\Debug\DangKi1.g.cs
+D:\QLNHANSU (1)\obj\Debug\DangNhap.g.cs
+D:\QLNHANSU (1)\obj\Debug\DashBoard1.g.cs
+D:\QLNHANSU (1)\obj\Debug\DashBoard.g.cs
+D:\QLNHANSU (1)\obj\Debug\EditHopDong.g.cs
+D:\QLNHANSU (1)\obj\Debug\EditInfo.g.cs
+D:\QLNHANSU (1)\obj\Debug\EnterPasswordWindow.g.cs
+D:\QLNHANSU (1)\obj\Debug\QuanLyThongTin.g.cs
+D:\QLNHANSU (1)\obj\Debug\ImageWindow.g.cs
+D:\QLNHANSU (1)\obj\Debug\XttCoBan.g.cs
+D:\QLNHANSU (1)\obj\Debug\XttCongTac.g.cs
+D:\QLNHANSU (1)\obj\Debug\XttHDLD.g.cs
+D:\QLNHANSU (1)\obj\Debug\App.g.cs
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU_MarkupCompile.cache
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU_MarkupCompile.lref
+D:\QLNHANSU (1)\obj\Debug\App.baml
+D:\QLNHANSU (1)\obj\Debug\CapNhat.baml
+D:\QLNHANSU (1)\obj\Debug\CongTac.baml
+D:\QLNHANSU (1)\obj\Debug\DangNhap.baml
+D:\QLNHANSU (1)\obj\Debug\DashBoard1.baml
+D:\QLNHANSU (1)\obj\Debug\DashBoard.baml
+D:\QLNHANSU (1)\obj\Debug\EditHopDong.baml
+D:\QLNHANSU (1)\obj\Debug\EditInfo.baml
+D:\QLNHANSU (1)\obj\Debug\QuanLyThongTin.baml
+D:\QLNHANSU (1)\obj\Debug\XttCoBan.baml
+D:\QLNHANSU (1)\obj\Debug\XttCongTac.baml
+D:\QLNHANSU (1)\obj\Debug\XttHDLD.baml
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.g.resources
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.Properties.Resources.resources
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.Resource1.resources
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.csproj.GenerateResource.cache
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.csproj.CoreCompileInputs.cache
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.csproj.Up2Date
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.exe
+D:\QLNHANSU (1)\obj\Debug\QLNHANSU.pdb
+D:\QLNHANSU (1)\obj\Debug\XttTangCa.g.cs
+D:\QLNHANSU (1)\obj\Debug\XttTangCa.baml
+D:\QLNHANSU (1)\obj\Debug\EditTrinhDo.baml
+D:\QLNHANSU (1)\obj\Debug\EditBaoHiem.g.cs
+D:\QLNHANSU (1)\obj\Debug\EditTrinhDo.g.cs
+D:\QLNHANSU (1)\obj\Debug\TangCa.g.cs
+D:\QLNHANSU (1)\obj\Debug\EditBaoHiem.baml
+D:\QLNHANSU (1)\obj\Debug\TangCa.baml
+D:\QLNHANSU_FINAL\bin\Debug\libHarfBuzzSharp.dylib
+D:\QLNHANSU_FINAL\bin\Debug\x86\libHarfBuzzSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\x64\libHarfBuzzSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\arm64\libHarfBuzzSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\libSkiaSharp.dylib
+D:\QLNHANSU_FINAL\bin\Debug\x86\libSkiaSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\x64\libSkiaSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\arm64\libSkiaSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\x64\libHarfBuzzSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\arm\libHarfBuzzSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\arm64\libHarfBuzzSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\musl-x64\libHarfBuzzSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\x64\libSkiaSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\arm\libSkiaSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\arm64\libSkiaSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\musl-x64\libSkiaSharp.so
+D:\QLNHANSU_FINAL\bin\Debug\QLNHANSU.exe.config
+D:\QLNHANSU_FINAL\bin\Debug\QLNHANSU.exe
+D:\QLNHANSU_FINAL\bin\Debug\QLNHANSU.pdb
+D:\QLNHANSU_FINAL\bin\Debug\BLL.dll
+D:\QLNHANSU_FINAL\bin\Debug\DAL.dll
+D:\QLNHANSU_FINAL\bin\Debug\DTO.dll
+D:\QLNHANSU_FINAL\bin\Debug\GLWpfControl.dll
+D:\QLNHANSU_FINAL\bin\Debug\HarfBuzzSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\LiveCharts.dll
+D:\QLNHANSU_FINAL\bin\Debug\LiveCharts.Wpf.dll
+D:\QLNHANSU_FINAL\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\QLNHANSU_FINAL\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\QLNHANSU_FINAL\bin\Debug\MaterialDesignColors.dll
+D:\QLNHANSU_FINAL\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\QLNHANSU_FINAL\bin\Debug\OpenTK.dll
+D:\QLNHANSU_FINAL\bin\Debug\ScottPlot.dll
+D:\QLNHANSU_FINAL\bin\Debug\ScottPlot.WPF.dll
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.dll
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.HarfBuzz.dll
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.Views.WPF.dll
+D:\QLNHANSU_FINAL\bin\Debug\System.Buffers.dll
+D:\QLNHANSU_FINAL\bin\Debug\System.Drawing.Common.dll
+D:\QLNHANSU_FINAL\bin\Debug\System.Memory.dll
+D:\QLNHANSU_FINAL\bin\Debug\System.Numerics.Vectors.dll
+D:\QLNHANSU_FINAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\QLNHANSU_FINAL\bin\Debug\System.ValueTuple.dll
+D:\QLNHANSU_FINAL\bin\Debug\WPFPlot.dll
+D:\QLNHANSU_FINAL\bin\Debug\BLL.pdb
+D:\QLNHANSU_FINAL\bin\Debug\BLL.dll.config
+D:\QLNHANSU_FINAL\bin\Debug\DTO.pdb
+D:\QLNHANSU_FINAL\bin\Debug\DAL.pdb
+D:\QLNHANSU_FINAL\bin\Debug\GLWpfControl.pdb
+D:\QLNHANSU_FINAL\bin\Debug\HarfBuzzSharp.pdb
+D:\QLNHANSU_FINAL\bin\Debug\HarfBuzzSharp.xml
+D:\QLNHANSU_FINAL\bin\Debug\LiveCharts.pdb
+D:\QLNHANSU_FINAL\bin\Debug\LiveCharts.xml
+D:\QLNHANSU_FINAL\bin\Debug\LiveCharts.Wpf.pdb
+D:\QLNHANSU_FINAL\bin\Debug\LiveCharts.Wpf.xml
+D:\QLNHANSU_FINAL\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\QLNHANSU_FINAL\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\QLNHANSU_FINAL\bin\Debug\MaterialDesignColors.pdb
+D:\QLNHANSU_FINAL\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\QLNHANSU_FINAL\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\QLNHANSU_FINAL\bin\Debug\OpenTK.pdb
+D:\QLNHANSU_FINAL\bin\Debug\OpenTK.xml
+D:\QLNHANSU_FINAL\bin\Debug\ScottPlot.xml
+D:\QLNHANSU_FINAL\bin\Debug\ScottPlot.WPF.xml
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.pdb
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.xml
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.HarfBuzz.pdb
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.HarfBuzz.xml
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.Views.WPF.pdb
+D:\QLNHANSU_FINAL\bin\Debug\SkiaSharp.Views.WPF.xml
+D:\QLNHANSU_FINAL\bin\Debug\System.Buffers.xml
+D:\QLNHANSU_FINAL\bin\Debug\System.Memory.xml
+D:\QLNHANSU_FINAL\bin\Debug\System.Numerics.Vectors.xml
+D:\QLNHANSU_FINAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\QLNHANSU_FINAL\bin\Debug\System.ValueTuple.xml
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.csproj.AssemblyReference.cache
+D:\QLNHANSU_FINAL\obj\Debug\ChamCong.baml
+D:\QLNHANSU_FINAL\obj\Debug\DangKi1.baml
+D:\QLNHANSU_FINAL\obj\Debug\EditTrinhDo.baml
+D:\QLNHANSU_FINAL\obj\Debug\EnterPasswordWindow.baml
+D:\QLNHANSU_FINAL\obj\Debug\ImageWindow.baml
+D:\QLNHANSU_FINAL\obj\Debug\ThongKe.baml
+D:\QLNHANSU_FINAL\obj\Debug\XttLuong.baml
+D:\QLNHANSU_FINAL\obj\Debug\CapNhat.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\ChamCong.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\CongTac.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\DangKi1.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\DangNhap.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\DashBoard1.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\DashBoard.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\EditBaoHiem.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\EditHopDong.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\EditInfo.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\EditTrinhDo.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\EnterPasswordWindow.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\QuanLyBangLuong.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\QuanLyChamCong.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\QuanLyThongTin.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\ImageWindow.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\TangCa.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\ThongKe.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\XttCoBan.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\XttCongTac.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\XttHDLD.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\XttLuong.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\XttTangCa.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\App.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU_Content.g.cs
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU_MarkupCompile.cache
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU_MarkupCompile.lref
+D:\QLNHANSU_FINAL\obj\Debug\App.baml
+D:\QLNHANSU_FINAL\obj\Debug\CapNhat.baml
+D:\QLNHANSU_FINAL\obj\Debug\CongTac.baml
+D:\QLNHANSU_FINAL\obj\Debug\DangNhap.baml
+D:\QLNHANSU_FINAL\obj\Debug\DashBoard1.baml
+D:\QLNHANSU_FINAL\obj\Debug\DashBoard.baml
+D:\QLNHANSU_FINAL\obj\Debug\EditBaoHiem.baml
+D:\QLNHANSU_FINAL\obj\Debug\EditHopDong.baml
+D:\QLNHANSU_FINAL\obj\Debug\EditInfo.baml
+D:\QLNHANSU_FINAL\obj\Debug\QuanLyBangLuong.baml
+D:\QLNHANSU_FINAL\obj\Debug\QuanLyChamCong.baml
+D:\QLNHANSU_FINAL\obj\Debug\QuanLyThongTin.baml
+D:\QLNHANSU_FINAL\obj\Debug\TangCa.baml
+D:\QLNHANSU_FINAL\obj\Debug\XttCoBan.baml
+D:\QLNHANSU_FINAL\obj\Debug\XttCongTac.baml
+D:\QLNHANSU_FINAL\obj\Debug\XttHDLD.baml
+D:\QLNHANSU_FINAL\obj\Debug\XttTangCa.baml
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.g.resources
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.Properties.Resources.resources
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.Resource1.resources
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.csproj.GenerateResource.cache
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.csproj.CoreCompileInputs.cache
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.csproj.Up2Date
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.exe
+D:\QLNHANSU_FINAL\obj\Debug\QLNHANSU.pdb

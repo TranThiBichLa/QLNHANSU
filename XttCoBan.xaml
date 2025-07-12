@@ -37,54 +37,63 @@
                         <!-- Hàng trống để căn chỉnh nội dung -->
                     </Grid.RowDefinitions>
 
-                    <!-- Avatar -->
-                    <Border CornerRadius="75,75,75,75" Width="150" Height="150" Background="#CFCFCF" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Grid.RowSpan="3">
-                        <TextBlock Text="Avatar" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" FontWeight="Bold" />
-                    </Border>
+                    <Image x:Name="imgHinhAnh" 
+Width="130" Height="130" 
+HorizontalAlignment="Center" 
+VerticalAlignment="Top" 
+Stretch="Fill" Grid.RowSpan="3" 
+ ClipToBounds="True" Margin="0,30,0,0"
+                          
+>
+                        <Image.Clip>
+                            <!-- Cắt hình ảnh thành hình tròn -->
+                            <EllipseGeometry RadiusX="65" RadiusY="65" Center="65,65" />
+                        </Image.Clip>
+                    </Image>
 
                     <!-- Mã nhân viên -->
                     <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Margin="5,5,5,5">
                         <TextBlock Text="Mã Nhân Viên:" Width="146" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="110" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtMaNV" Width="110" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Số điện thoại -->
                     <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="0" Margin="5,5,5,5">
                         <TextBlock Text="Số Điện Thoại:" Width="146" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="110" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtSDT" Width="110" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Họ tên -->
                     <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Họ Tên:" Width="120" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="187" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtHoTen" Width="187" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Ngày sinh -->
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Ngày Sinh:" Width="120" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <DatePicker Width="185" Height="44" FontSize="20" />
+                        <DatePicker Padding="0,7,0,0" x:Name="dpNgaySinh" Width="185" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Giới tính -->
                     <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Giới Tính:" Width="120" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
                         <StackPanel Orientation="Horizontal">
-                            <RadioButton Content="Nam" GroupName="Gender" Margin="5" Height="30" FontSize="20" FontWeight="Bold" />
-                            <RadioButton Content="Nữ" GroupName="Gender" Margin="5" FontSize="20" Height="29" FontWeight="Bold" />
+                            <RadioButton x:Name="rbNam" Content="Nam" GroupName="Gender" Margin="5" Height="30" FontSize="20" FontWeight="Bold" />
+                            <RadioButton x:Name="rbNu" Content="Nữ" GroupName="Gender" Margin="5" FontSize="20" Height="29" FontWeight="Bold" />
                         </StackPanel>
                     </StackPanel>
 
                     <!-- Địa chỉ -->
                     <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Địa Chỉ:" Width="120" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="187" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtDiaChi" Width="187" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Email -->
                     <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Email:" Width="120" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="187" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtEmail" Width="187" Height="44" FontSize="20" />
                     </StackPanel>
                 </Grid>
             </StackPanel>
@@ -112,37 +121,37 @@
                     <!-- Mã phòng -->
                     <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Margin="5,5,5,5">
                         <TextBlock Text="Mã Phòng:" Width="126" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="110" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtMaPB" Width="110" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Tên phòng -->
                     <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Tên Phòng:" Width="125" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="140" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtTenPB" Width="140" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Mã bộ phận -->
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="5,5,5,5">
                         <TextBlock Text="Mã Bộ Phận:" Width="126" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="110" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtMaBP" Width="110" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Tên bộ phận -->
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Tên Bộ Phận:" Width="125" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="140" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtTenBP" Width="140" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Mã chức vụ -->
                     <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Margin="5,5,5,5">
                         <TextBlock Text="Mã Chức Vụ:" Width="126" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="110" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtMaCV" Width="110" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Tên chức vụ -->
                     <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="5,5,5,5">
                         <TextBlock Text="Tên Chức Vụ:" Width="125" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" />
-                        <TextBox Width="140" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtTenCV" Width="140" Height="44" FontSize="20" />
                     </StackPanel>
                 </Grid>
             </StackPanel>
@@ -168,31 +177,31 @@
                     <!-- Số BHYT -->
                     <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="5">
                         <TextBlock Text="Số BHYT:" FontWeight="Bold" Width="180" VerticalAlignment="Center" FontSize="20" />
-                        <TextBox Width="295" Height="44" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtSoBHYT" Width="295" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Ngày Cấp -->
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5">
                         <TextBlock Text="Ngày Cấp:" FontWeight="Bold" Width="180" VerticalAlignment="Center" FontSize="20" />
-                        <DatePicker Width="295" Height="44" FontSize="20" />
+                        <DatePicker Padding="0,7,0,0" x:Name="dpNgayCap" Width="295" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Giá Trị Sử Dụng -->
                     <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="5">
                         <TextBlock Text="Giá Trị Sử Dụng:" FontWeight="Bold" Width="180" VerticalAlignment="Center" FontSize="20" />
-                        <TextBox Width="295" Height="44" FontSize="20" />
+                        <DatePicker Padding="0,7,0,0" x:Name="dpGTSD" Width="295" Height="44" FontSize="20" />
                     </StackPanel>
 
                     <!-- Ngày Hết Hạn -->
                     <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="5">
                         <TextBlock Text="Ngày Hết Hạn:" FontWeight="Bold" Width="180" VerticalAlignment="Center" FontSize="20" />
-                        <DatePicker Width="295" Height="42" FontSize="20" />
+                        <DatePicker Padding="0,7,0,0" x:Name="dpNgayHetHanBHYT" Width="295" Height="42" FontSize="20" />
                     </StackPanel>
 
                     <!-- Nơi Khám Bệnh -->
                     <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="5">
                         <TextBlock Text="Nơi Khám Bệnh:" FontWeight="Bold" Width="180" VerticalAlignment="Center" FontSize="20" />
-                        <TextBox Width="294.3" Height="38" FontSize="20" />
+                        <TextBox Padding="0,7,0,0" x:Name="txtNoiKhamBenh" Width="294.3" Height="38" FontSize="20" />
                     </StackPanel>
                 </Grid>
             </StackPanel>
@@ -202,43 +211,28 @@
 
         <!-- Góc phần tư thứ tư: Thông tin trình độ -->
         <Border Grid.Row="1" CornerRadius="20" Background="#FF72CCF6" Padding="15" Margin="620,5,65,25" Grid.ColumnSpan="2">
+
             <StackPanel Margin="0,-15,0,0">
-                <Border Background="#FF0F4DCE" Padding="10" HorizontalAlignment="Stretch" Margin="-350,0,0,10" Width="210" CornerRadius="20,0,20,0">
-                    <TextBlock Text="Thông Tin Trình Độ" FontSize="20" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
+                <Border Background="#FF0F4DCE" Padding="10" HorizontalAlignment="Stretch" Margin="-370,0,0,10" Width="190" CornerRadius="20,0,20,0">
+                    <TextBlock Text="Thông Tin Trình Độ" FontSize="18" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
                 </Border>
-                <!-- Grid Layout -->
-                <Grid VerticalAlignment="Top">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*" />
-                        <ColumnDefinition Width="2*" />
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="60" />
-                        <RowDefinition Height="60" />
-                        <RowDefinition Height="60" />
-                        <RowDefinition Height="60" />
-                        <RowDefinition Height="*" />
-                        <!-- Hàng linh hoạt -->
-                    </Grid.RowDefinitions>
+                <!-- DataGrid for Trình Độ -->
+                <DataGrid x:Name="dgTrinhDo" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,20,0,0" IsReadOnly="True" AutoGenerateColumns="False" SelectionMode="Single" Height="285" FontSize="20" FontWeight="Bold">
+                    <DataGrid.Columns>
+                        <!-- Mã Trình Độ -->
+                        <DataGridTextColumn Header="Mã Trình Độ" Binding="{Binding MATD}" Width="150" />
 
-                    <!-- Mã Trình Độ -->
-                    <TextBlock Text="Mã Trình Độ:" Grid.Row="0" Grid.Column="0" FontWeight="Bold" Margin="5" VerticalAlignment="Center" FontSize="20" />
-                    <TextBox Height="44" Grid.Row="0" Grid.Column="1" Margin="53,8,45,8" FontSize="20" />
+                        <!-- Tên Trình Độ -->
+                        <DataGridTextColumn Header="Tên Trình Độ" Binding="{Binding TENTD}" Width="250" />
 
-                    <!-- Tên Trình Độ -->
-                    <TextBlock Text="Tên Trình Độ:" Grid.Row="1" Grid.Column="0" FontWeight="Bold" Margin="5" VerticalAlignment="Center" FontSize="20" />
-                    <TextBox Height="44" Grid.Row="1" Grid.Column="1" Margin="53,8,45,8" FontSize="20" Width="265.26359832636" />
+                        <!-- Thời Gian Hoàn Thành -->
+                        <DataGridTextColumn Header="Thời Gian Hoàn Thành" Binding="{Binding TGHOANTHANH}" Width="200" />
 
-                    <!-- Thời Gian Hoàn Thành -->
-                    <TextBlock Text="Thời Gian Hoàn Thành:" Grid.Row="2" Grid.Column="0" FontWeight="Bold" Margin="5,0,304,0" VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" />
-                    <TextBox Height="44" Grid.Row="2" Grid.Column="1" Margin="53,8,45,8" FontSize="20" />
-
-                    <!-- Ngày Hết Hạn -->
-                    <TextBlock Text="Ngày Hết Hạn:" Grid.Row="3" Grid.Column="0" FontWeight="Bold" Margin="5" VerticalAlignment="Center" FontSize="20" />
-                    <DatePicker Height="44" Grid.Row="3" Grid.Column="1" Margin="53,8,45,8" FontSize="20" />
-                </Grid>
+                        <!-- Ngày Hết Hạn -->
+                        <DataGridTextColumn Header="Ngày Hết Hạn" Binding="{Binding NGAYHETHANTRINHDO}" Width="200" />
+                    </DataGrid.Columns>
+                </DataGrid>
             </StackPanel>
         </Border>
-
     </Grid>
 </UserControl>

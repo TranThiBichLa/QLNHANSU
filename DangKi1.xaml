@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
              Height="Auto" Width="Auto" d:DesignHeight="810" d:DesignWidth="1245">
     <UserControl.Resources>
         <!-- Màu sắc được định nghĩa -->
@@ -51,6 +52,8 @@
             </Setter>
         </Style>
 
+
+
         <!-- Style cho TabControl -->
         <Style TargetType="TabControl">
             <Setter Property="Background" Value="Transparent"/>
@@ -59,8 +62,11 @@
     </UserControl.Resources>
 
     <Grid Background="#F5F5F5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <!-- TabControl -->
-        <TabControl Margin="0,-9.2" FontSize="20">
+        <TabControl Margin="0,-9,0,-9" FontSize="20">
 
             <!-- Tab 1: Bảo hiểm -->
             <TabItem Header="Bảo hiểm" Style="{StaticResource TabItemStyle}" VerticalAlignment="Center" Width="150">
@@ -81,14 +87,14 @@
                                 <RowDefinition Height="80"/>
                                 <RowDefinition Height="80"/>
                                 <RowDefinition Height="80"/>
-                                <RowDefinition Height="80"/>
+                                <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="80"/>
                                 <RowDefinition Height="80"/>
                             </Grid.RowDefinitions>
 
                             <!-- Header -->
                             <Border Background="#FF0F4DCE" Padding="10" Margin="-20,-22,745,27" CornerRadius="20,0,20,0">
-                                <TextBlock Text="Bảo Hiểm Y Tế" FontSize="18" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
+                                <TextBlock Text="Bảo Hiểm Y Tế" FontSize="20" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
                             </Border>
 
                             <!--  -->
@@ -97,7 +103,7 @@
            Width="195" 
            VerticalAlignment="Center" 
            FontSize="20" Foreground="#FF100F0F" FontWeight="Bold"/>
-                                <TextBox Width="685" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtSoBHYT" Width="685" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -106,7 +112,7 @@
            Width="195" 
            VerticalAlignment="Center" 
            FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <DatePicker Width="685" Height="44" FontSize="20"/>
+                                <DatePicker  x:Name="dpNgayCap" Width="685" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -115,7 +121,7 @@
            Width="195" 
            VerticalAlignment="Center" 
            FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="685" Height="44" FontSize="20"/>
+                                <DatePicker  x:Name="txtGiaTriSuDung" Width="685" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -124,7 +130,7 @@
            Width="195" 
            VerticalAlignment="Center" 
            FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <DatePicker Width="685" Height="44" FontSize="20"/>
+                                <DatePicker  x:Name="dpNgayHetHan" Width="685" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -133,9 +139,28 @@
            Width="195" 
            VerticalAlignment="Center" 
            FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="685" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtNoiKhamBenh" Width="685" Height="44" FontSize="20"/>
                             </StackPanel>
 
+                            <Border Background="#FF0F4DCE" Padding="10" CornerRadius="10" Margin="720,108,65,-98" Grid.Row="5">
+                                <Button HorizontalAlignment="Center" 
+            VerticalAlignment="Center" 
+            Width="180" 
+            Height="50" 
+            FontSize="20" 
+            Background="#FF0F4DCE" 
+            Foreground="White" 
+            BorderThickness="0" 
+            Cursor="Hand" 
+            Click="DangKiBaoHien_Button">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <!-- Icon -->
+                                        <Icon:PackIconMaterial Kind="AccountPlus" Width="26" Height="26" Margin="0,0,10,0" Foreground="White" />
+                                        <!-- Text -->
+                                        <TextBlock Text="Đăng Ký" VerticalAlignment="Center" FontSize="20" />
+                                    </StackPanel>
+                                </Button>
+                            </Border>
 
 
 
@@ -149,7 +174,7 @@
                 <Grid Margin="0,-3,0,0">
                     <!-- Border for bo góc -->
                     <!-- Border with Gradient Background -->
-                    <Border CornerRadius="20" Padding="20" Margin="103,20,153,133">
+                    <Border CornerRadius="20" Padding="20" Margin="103,20,153,238">
                         <Border.Background>
                             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                                 <GradientStop Color="#FF72CCF6" Offset="0"/>
@@ -175,7 +200,7 @@
     Width="252" 
     VerticalAlignment="Center" 
     FontSize="20" Foreground="#FF100F0F" FontWeight="Bold"/>
-                                <TextBox Width="643" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtMaTrinhDo" Width="643" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -184,7 +209,7 @@
     Width="252" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="643" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtTenTrinhDo" Width="643" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -193,7 +218,7 @@
     Width="252" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="643" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtThoiGianHoanThanh" Width="643" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
@@ -202,17 +227,29 @@
     Width="252" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <DatePicker Width="643" Height="44" FontSize="20"/>
+                                <DatePicker x:Name="dpNgayHetHan1" Width="643" Height="44" FontSize="20"/>
                             </StackPanel>
 
-                            <!--  -->
-                            <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="0,5,0,105">
-                                <TextBlock Text="Nơi khám bệnh:" 
-    Width="150" 
-    VerticalAlignment="Center" 
-    FontSize="14"/>
-                                <TextBox Width="300" Height="30" FontSize="14"/>
-                            </StackPanel>
+
+                            <Border Background="#FF0F4DCE" Padding="10" CornerRadius="10" Margin="730,10,50,-3" Grid.Row="4">
+                                <Button HorizontalAlignment="Center" 
+VerticalAlignment="Center" 
+Width="180" 
+Height="50" 
+FontSize="20" 
+Background="#FF0F4DCE" 
+Foreground="White" 
+BorderThickness="0" 
+Cursor="Hand" 
+Click="DangKiTrinhDo_Button">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <!-- Icon -->
+                                        <Icon:PackIconMaterial Kind="AccountPlus" Width="26" Height="26" Margin="0,0,10,0" Foreground="White" />
+                                        <!-- Text -->
+                                        <TextBlock Text="Đăng Ký" VerticalAlignment="Center" FontSize="20" />
+                                    </StackPanel>
+                                </Button>
+                            </Border>
                         </Grid>
                     </Border>
                 </Grid>
@@ -238,59 +275,69 @@
                                 <RowDefinition Height="80"/>
                                 <RowDefinition Height="80"/>
                                 <RowDefinition Height="80"/>
-                                <RowDefinition Height="80"/>
+                                <RowDefinition Height="73.2"/>
+                                <RowDefinition Height="6.8"/>
                             </Grid.RowDefinitions>
 
-                            <!-- Header -->
 
                             <!--  -->
-                            <StackPanel Orientation="Horizontal" Margin="0,5">
-                                <TextBlock Text="Mã Nhân Viên:" 
-    Width="195" 
-    VerticalAlignment="Center" 
-    FontSize="20" Foreground="#FF100F0F" FontWeight="Bold"/>
-                                <TextBox Width="710" Height="44" FontSize="20"/>
-                            </StackPanel>
-
-                            <!--  -->
-                            <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,5">
+                            <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,5,0,5">
                                 <TextBlock Text="Mã Loại Ca:" 
     Width="195" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="710" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtMaLoaiCa" Width="710" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
-                            <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,5">
+                            <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,5,0,5">
                                 <TextBlock Text="Mã Tăng Ca:" 
     Width="195" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="710" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtMaTangCa" Width="710" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
-                            <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="0,5">
+                            <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,5,0,5">
                                 <TextBlock Text="Ngày Tăng Ca:" 
     Width="195" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <DatePicker Width="710" Height="44" FontSize="20"/>
+                                <DatePicker x:Name="dpNgayTangCa" Width="710" Height="44" FontSize="20"/>
                             </StackPanel>
 
                             <!--  -->
-                            <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="0,5,0,-9">
+                            <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="0,5,0,64" Grid.RowSpan="2">
                                 <TextBlock Text="Số Giờ:" 
     Width="195" 
     VerticalAlignment="Center" 
     FontSize="20" FontWeight="Bold" Foreground="#FF100F0F"/>
-                                <TextBox Width="710" Height="44" FontSize="20"/>
+                                <TextBox x:Name="txtSoGioTangCa" Width="710" Height="44" FontSize="20"/>
                             </StackPanel>
+                            <!--  -->
+                            <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="0,5,0,-23" Grid.RowSpan="2"/>
 
-
-
-
+                            <!-- Button Đăng Ký -->
+                            <Border Background="#FF0F4DCE" Padding="10" CornerRadius="10" Margin="740,37,40,-36" Grid.Row="4" Grid.RowSpan="2">
+                                <Button HorizontalAlignment="Center" 
+VerticalAlignment="Center" 
+Width="180" 
+Height="50" 
+FontSize="20" 
+Background="#FF0F4DCE" 
+Foreground="White" 
+BorderThickness="0" 
+Cursor="Hand" 
+Click="Button_Click_2">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <!-- Icon -->
+                                        <Icon:PackIconMaterial Kind="AccountPlus" Width="26" Height="26" Margin="0,0,10,0" Foreground="White" />
+                                        <!-- Text -->
+                                        <TextBlock Text="Đăng Ký" VerticalAlignment="Center" FontSize="20" />
+                                    </StackPanel>
+                                </Button>
+                            </Border>
                         </Grid>
                     </Border>
                 </Grid>

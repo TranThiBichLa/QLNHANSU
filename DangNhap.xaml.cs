@@ -1,5 +1,5 @@
-﻿using BLL;
-using DTO;
+﻿//using BLL;
+//using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BLL;
+using DTO;
 
 namespace QLNHANSU
 {
@@ -22,8 +24,11 @@ namespace QLNHANSU
     /// </summary>
     public partial class DangNhap : Window
     {
+
+
         TaiKhoan taikhoan = new TaiKhoan();
         TaiKhoanBLL TKBLL = new TaiKhoanBLL();
+
         public DangNhap()
         {
             InitializeComponent();
@@ -31,31 +36,38 @@ namespace QLNHANSU
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            // Lấy thông tin đăng nhập từ giao diện
-            taikhoan.sTaiKhoan = txttaikhoan.Text;
-            taikhoan.sMatKhau = txtmatkhau.Password; // Lấy mật khẩu từ PasswordBox
+            TaiKhoan taikhoan = new TaiKhoan();
+            taikhoan.sTaiKhoan = txttaikhoan.Text;  // Tên tài khoản
+            taikhoan.sMatKhau = txtmatkhau.Password;  // Mật khẩu (mã nhân viên)
 
-            // Kiểm tra thông tin đăng nhập
-            string getuser = TKBLL.CheckLogin(taikhoan);
+            string userRole;
+            string result = TKBLL.CheckLogin(taikhoan, out userRole); // Kiểm tra đăng nhập và lấy quyền người dùng
 
-            // Xử lý kết quả kiểm tra
-            switch (getuser)
+            switch (result)
             {
                 case "request_taikhoan":
                     MessageBox.Show("Tài khoản không được để trống!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
-                    return;
+                    break;
                 case "request_password":
                     MessageBox.Show("Mật khẩu không được để trống!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
-                    return;
-                case "Tài khoản hoặc mật khẩu không chính xác!":
+                    break;
+                case "invalid_login":
                     MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                default:
-                    // Đăng nhập thành công
+                    break;
+                case "success":
+                    GlobalData.LoggedInPassword = taikhoan.sMatKhau; // Lưu mật khẩu
 
-                    // Mở giao diện chính và đóng form đăng nhập
-                    DashBoard mainWindow = new DashBoard();
-                    mainWindow.Show();
+                    // Phân quyền dựa vào userRole
+                    if (userRole == "Quản lý")
+                    {
+                        DashBoard dashboard = new DashBoard(taikhoan.sTaiKhoan); // Gọi dashboard của quản lý, truyền tài khoản và mật khẩu
+                        dashboard.Show();
+                    }
+                    else if (userRole == "Nhân viên")
+                    {
+                        DashBoard1 dashboard = new DashBoard1(taikhoan.sTaiKhoan, taikhoan.sMatKhau); // Gọi dashboard của nhân viên, truyền tài khoản và mật khẩu
+                        dashboard.Show();
+                    }
                     this.Close();
                     break;
             }
@@ -63,6 +75,22 @@ namespace QLNHANSU
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
+        }
+
+      
+
+      
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
 
         }
     }

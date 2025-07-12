@@ -9,3 +9,45 @@ D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\bin\Debug\D
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.dll
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\BLL\obj\Debug\BLL.pdb
+D:\QLNHANSU\BLL\bin\Debug\BLL.dll
+D:\QLNHANSU\BLL\bin\Debug\BLL.pdb
+D:\QLNHANSU\BLL\bin\Debug\DAL.dll
+D:\QLNHANSU\BLL\bin\Debug\DTO.dll
+D:\QLNHANSU\BLL\bin\Debug\DAL.pdb
+D:\QLNHANSU\BLL\bin\Debug\DTO.pdb
+D:\QLNHANSU\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\QLNHANSU\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\QLNHANSU\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\QLNHANSU\BLL\obj\Debug\BLL.dll
+D:\QLNHANSU\BLL\obj\Debug\BLL.pdb
+D:\QLNHANSU\BLL\bin\Debug\BLL.dll.config
+D:\QLNHANSU (1)\BLL\bin\Debug\BLL.dll.config
+D:\QLNHANSU (1)\BLL\bin\Debug\BLL.dll
+D:\QLNHANSU (1)\BLL\bin\Debug\BLL.pdb
+D:\QLNHANSU (1)\BLL\bin\Debug\DAL.dll
+D:\QLNHANSU (1)\BLL\bin\Debug\DTO.dll
+D:\QLNHANSU (1)\BLL\bin\Debug\DAL.pdb
+D:\QLNHANSU (1)\BLL\bin\Debug\DTO.pdb
+D:\QLNHANSU (1)\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\QLNHANSU (1)\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\QLNHANSU (1)\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\QLNHANSU (1)\BLL\obj\Debug\BLL.dll
+D:\QLNHANSU (1)\BLL\obj\Debug\BLL.pdb
+D:\QLNHANSU_FINAL\BLL\bin\Debug\BLL.dll.config
+D:\QLNHANSU_FINAL\BLL\bin\Debug\BLL.dll
+D:\QLNHANSU_FINAL\BLL\bin\Debug\BLL.pdb
+D:\QLNHANSU_FINAL\BLL\bin\Debug\DAL.dll
+D:\QLNHANSU_FINAL\BLL\bin\Debug\DTO.dll
+D:\QLNHANSU_FINAL\BLL\bin\Debug\LiveCharts.dll
+D:\QLNHANSU_FINAL\BLL\bin\Debug\LiveCharts.Wpf.dll
+D:\QLNHANSU_FINAL\BLL\bin\Debug\DAL.pdb
+D:\QLNHANSU_FINAL\BLL\bin\Debug\DTO.pdb
+D:\QLNHANSU_FINAL\BLL\bin\Debug\LiveCharts.pdb
+D:\QLNHANSU_FINAL\BLL\bin\Debug\LiveCharts.xml
+D:\QLNHANSU_FINAL\BLL\bin\Debug\LiveCharts.Wpf.pdb
+D:\QLNHANSU_FINAL\BLL\bin\Debug\LiveCharts.Wpf.xml
+D:\QLNHANSU_FINAL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\QLNHANSU_FINAL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\QLNHANSU_FINAL\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\QLNHANSU_FINAL\BLL\obj\Debug\BLL.dll
+D:\QLNHANSU_FINAL\BLL\obj\Debug\BLL.pdb

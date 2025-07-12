@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="QLNHANSU.XttLuong"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <Grid Background="#F5F5F5">
+        <!-- Header -->
+        <Border CornerRadius="0" Padding="0" Margin="0,0,0,0">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <!-- Pink -->
+                    <GradientStop Color="White" Offset="1"/>
+                    <!-- Purple -->
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    
+                    <RowDefinition Height="Auto"/>
+
+
+                </Grid.RowDefinitions>
+
+                <!-- Header -->
+                <Border Grid.Row="0" Background="#FF0F4DCE" Padding="10" Margin="0,0,0,0" CornerRadius="0,0,0,0">
+                    <TextBlock Text="THÔNG TIN BẢNG LƯƠNG" FontSize="20" FontWeight="Bold" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+                <Grid Grid.Row="1" Margin="10,10,10,10">
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="50"></RowDefinition>
+                        
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Lọc theo tháng -->
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Margin="5" VerticalAlignment="Center">
+                        <TextBlock Text="Tháng:" VerticalAlignment="Center" FontWeight="Bold" Foreground="#000" Margin="5"/>
+                        <ComboBox x:Name="cbThang" Width="100" Margin="5">
+                            <ComboBoxItem Content="1" />
+                            <ComboBoxItem Content="2" />
+                            <ComboBoxItem Content="3" />
+                            <ComboBoxItem Content="4" />
+                            <ComboBoxItem Content="5" />
+                            <ComboBoxItem Content="6" />
+                            <ComboBoxItem Content="7" />
+                            <ComboBoxItem Content="8" />
+                            <ComboBoxItem Content="9" />
+                            <ComboBoxItem Content="10" />
+                            <ComboBoxItem Content="11" />
+                            <ComboBoxItem Content="12" />
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- Lọc theo năm -->
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Margin="5" VerticalAlignment="Center">
+                        <TextBlock Text="Năm:" VerticalAlignment="Center" FontWeight="Bold" Foreground="#000" Margin="5"/>
+                        <ComboBox x:Name="cbNam" Width="100" Margin="5">
+                            <ComboBoxItem Content="2023" />
+                            <ComboBoxItem Content="2024" />
+                            <ComboBoxItem Content="2025" />
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- Nút tìm kiếm -->
+                    <Button Grid.Row="0" Grid.Column="3" Background="#FF0F4DCE" Foreground="White" BorderThickness="0" Height="35" VerticalAlignment="Center" Margin="5,0,5,0" Click="btnTimKiem_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <TextBlock Text="Tìm kiếm" FontWeight="Bold" VerticalAlignment="Center" Margin="5"/>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <DataGrid Grid.Row="2" x:Name="dgBangLuong"
+                  AutoGenerateColumns="False"
+CanUserAddRows="False"
+IsReadOnly="True"
+AlternatingRowBackground="LightGray"
+Foreground="Black"
+Background="White"
+HeadersVisibility="Column"
+Margin="0,0,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Tháng" Binding="{Binding Thang}" Width="*"/>
+                        <DataGridTextColumn Header="Năm" Binding="{Binding Nam}" Width="*"/>
+                        <DataGridTextColumn Header="Lương Cơ Bản" Binding="{Binding LuongCoBan}" Width="*"/>
+                        <DataGridTextColumn Header="Lương Tăng Ca" Binding="{Binding LuongTangCa}" Width="*"/>
+                        <DataGridTextColumn Header="Phụ Cấp" Binding="{Binding PhuCap}" Width="*"/>
+                        <DataGridTextColumn Header="Tiền Bị Trừ" Binding="{Binding TIENBTRU}" Width="*"/>
+                        <DataGridTextColumn Header="Tổng lương tháng" Binding="{Binding TongLuong}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

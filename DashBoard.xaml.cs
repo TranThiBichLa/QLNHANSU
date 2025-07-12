@@ -1,68 +1,108 @@
-﻿using Microsoft.SqlServer.Server;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BLL;
+using DAL;
+using DTO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Forms;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace QLNHANSU
 {
-    /// <summary>
-    /// Interaction logic for NhanVien.xaml
-    /// </summary>
     public partial class DashBoard : Window
     {
-        public DashBoard()
+        // Khai báo các đối tượng BLL
+        private readonly NhanVienBLL nhanVienBLL;
+        private readonly HopDongLaoDongBLL hopDongBLL;
+        private string taiKhoan;
+        // Constructor
+        public DashBoard(string userTaiKhoan)
         {
             InitializeComponent();
+
+            // Khởi tạo các đối tượng Access và BLL
+            var nhanVienAccess = new NhanVienAccess();
+            var hopDongAccess = new HopDongLaoDongAccess();
+            hopDongBLL = new HopDongLaoDongBLL(hopDongAccess, nhanVienAccess);
+            nhanVienBLL = new NhanVienBLL(nhanVienAccess, hopDongBLL);
+
+            // Load giao diện mặc định
+            LoadUserControl(new ThongKe());
+            taiKhoan = userTaiKhoan; 
         }
+
+        // Nạp UserControl vào panelMainContent
+        private void LoadUserControl(UserControl userControl)
+        {
+            panelMainContent.Children.Clear(); // Xóa nội dung cũ
+            panelMainContent.Children.Add(userControl); // Thêm UserControl mới
+        }
+
+        // Xử lý sự kiện nút 'Cập nhật'
+        private void Button_CapNhat_Click(object sender, RoutedEventArgs e)
+        {
+            LoadUserControl(new CapNhat(nhanVienBLL, hopDongBLL));
+        }
+
         
-        private void Button_Click(object sender, RoutedEventArgs e)
+        // Xử lý sự kiện nút 'Quản lý thông tin'
+        private void Button_QuanLyThongTin_Click(object sender, RoutedEventArgs e)
         {
-            // Nạp UserNhanVienControl vào panelMainContent
-            LoadUserControl(new CapNhat());
-        }
-        private void LoadUserControl(System.Windows.Controls.UserControl userControl )
-        {
-            // Xử lý cho WPF (không sử dụng Controls.Clear)
-            panelMainContent.Children.Clear(); // Clear nội dung của Grid/Panel
-            panelMainContent.Children.Add(userControl);
-        }
+           
+                LoadUserControl(new QuanLyThongTin(nhanVienBLL, hopDongBLL));
+            
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        }
+        private void Button_ThongKe_Click(object sender, RoutedEventArgs e)
         {
-            LoadUserControl(new XetDuyetThongTin());
+
+            LoadUserControl(new ThongKe());
+
 
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            LoadUserControl(new QuanLyThongTin());
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        // Xử lý sự kiện nút 'Công tác'
+        private void Button_CongTac_Click(object sender, RoutedEventArgs e)
         {
             LoadUserControl(new CongTac());
         }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void Button_ChamCong_Click(object sender, RoutedEventArgs e)
         {
-            // Đóng ứng dụng WPF
-            System.Windows.Application.Current.Shutdown();
+            LoadUserControl(new QuanLyChamCong());
+        }
+        private void Button_Luong_Click(object sender, RoutedEventArgs e)
+        {
+            LoadUserControl(new QuanLyBangLuong());
+        }
+        // Xử lý sự kiện nút 'Thoát'
+        private void Button_Thoat_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown(); // Đóng ứng dụng
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {// Thu nhỏ cửa sổ
-            this.WindowState = WindowState.Minimized;
+        // Xử lý sự kiện nút 'Thu nhỏ'
+        private void Button_ThuNho_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized; // Thu nhỏ cửa sổ
+        }
+
+        // Xử lý sự kiện nút 'Đăng xuất'
+        private void Button_DangXuat_Click(object sender, RoutedEventArgs e)
+        {
+            // Hiển thị hộp thoại xác nhận
+            var result = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Xác nhận đăng xuất", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                // Chuyển sang giao diện đăng nhập
+                var loginWindow = new DangNhap();
+                loginWindow.Show(); // Hiển thị cửa sổ đăng nhập
+                this.Close(); // Đóng cửa sổ hiện tại
+            }
+        }
+
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            LoadUserControl(new TangCa());
+
 
         }
     }

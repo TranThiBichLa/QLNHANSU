@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,8 +47,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BangLuongBLL.cs" />
+    <Compile Include="BaoHiemBLL.cs" />
+    <Compile Include="ChamCongBLL.cs" />
+    <Compile Include="ChucVuBLL.cs" />
+    <Compile Include="CongTacBLL.cs" />
+    <Compile Include="DangKiBLL.cs" />
+    <Compile Include="HopDongLaoDongBLL.cs" />
+    <Compile Include="NhanVienBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYNHANSUDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYNHANSUDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TaiKhoanBLL.cs" />
+    <Compile Include="TangCaBLL.cs" />
+    <Compile Include="TrinhDoBLL.cs" />
+    <Compile Include="XttCoBanBLL.cs" />
+    <Compile Include="XttCongTacBLL.cs" />
+    <Compile Include="XttHDLDBLL.cs" />
+    <Compile Include="XttTangCaBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
@@ -53,6 +83,25 @@
       <Project>{a7f4b231-d1c0-408a-acc7-0d5865c9fc89}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QUANLYNHANSUDataSet.xsc">
+      <DependentUpon>QUANLYNHANSUDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYNHANSUDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYNHANSUDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYNHANSUDataSet.xss">
+      <DependentUpon>QUANLYNHANSUDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

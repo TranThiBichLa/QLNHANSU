@@ -4,8 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QLNHANSU"
-        mc:Ignorable="d" WindowStartupLocation="CenterScreen" WindowStyle="None"  AllowsTransparency="True"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" Background="Transparent" WindowStyle="None"  AllowsTransparency="True"
         Title="DangNhap" Height="530" Width="800">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -13,7 +15,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0">
-            <Border>
+            <Border CornerRadius="10,0,0,10">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                         <GradientStop Color="#FF0F4DCE" Offset="0" />
@@ -53,105 +55,153 @@ HorizontalAlignment="Center" Margin="0,10,0,0">
             </Border>
         </Grid>
 
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Right side with the login form -->
         <Grid Grid.Column="1">
-            <!-- Title Text -->
-            <TextBlock Text="ĐĂNG NHẬP"
-                    FontSize="28"
-                    FontWeight="Bold"
-                    Foreground="#FF0F4DCE"
-                    HorizontalAlignment="Center"
-                    Margin="0,75,0,0"
-                    VerticalAlignment="Top" Height="45" />
+            <Border CornerRadius="0,10,10,0">
+                <Border.Background>
+                    <!-- Màu nền trắng cho Right Side -->
+                    <SolidColorBrush Color="White" />
+                </Border.Background>
 
-            <StackPanel VerticalAlignment="Top" Height="498">
+                <Grid>
+                    <!-- thoát -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="400,-490,0,0">
+                        <!-- Nút "-" -->
+                        <Button Width="40" Height="40" Background="Transparent"  BorderBrush="Transparent" FontSize="18" Click="Button_Click_3">
+                            <Icon:PackIconMaterial Kind="Minus" Width="24" Height="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black"/>
+                        </Button>
 
-                <ComboBox VerticalAlignment="Bottom" Width="300" Height="40" Margin="0,150,0,0" SelectionChanged="ComboBox_SelectionChanged" FontSize="20">
-                    <ComboBox.Background>
-                        <LinearGradientBrush EndPoint="0,1">
-                            <GradientStop Color="#FFF0F0F0"/>
-                            <GradientStop Color="#FFE3F2FD" Offset="1"/>
-                        </LinearGradientBrush>
-                    </ComboBox.Background>
+                        <!-- Nút "x" -->
+                        <Button Width="40" Height="40" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontSize="18" Click="Button_Click_4">
+                            <Icon:PackIconMaterial Kind="Close" Width="24" Height="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black"/>
+                        </Button>
+                    </StackPanel>
+                    <!-- Title Text -->
+                    <TextBlock Text="ĐĂNG NHẬP"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,140,0,0"
+                       VerticalAlignment="Top"
+                       Height="40">
+                        <TextBlock.Foreground>
+                            <!-- Gradient Foreground -->
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#FF0F4DCE" Offset="0" />
+                                <GradientStop Color="#FF2196F3" Offset="1" />
+                            </LinearGradientBrush>
+                        </TextBlock.Foreground>
+                    </TextBlock>
 
-                    <!-- Thêm hai mục trong ComboBox -->
-                    <ComboBoxItem Content="Quản lý" 
-                                  FontSize="16"/>
-                    <ComboBoxItem Content="Nhân viên"
-                                  FontSize="16"/>
-                </ComboBox>
-
-                <!-- Username input -->
-                <Grid Margin="0,10,0,10">
-                    <TextBox x:Name="txttaikhoan" Width="300"
+                    <StackPanel VerticalAlignment="Top" Height="293" Margin="0,205,0,0">
+                        <!-- Username input -->
+                        <Grid Margin="0,10,0,10">
+                            <TextBox x:Name="txttaikhoan" Width="300"
                              Height="40"
-                             FontSize="16"
+                             FontSize="20"
                              BorderBrush="#BBDEFB"
                              BorderThickness="1"
                              Foreground="Black"
-                             Padding="35,0,10,0"
-                             VerticalAlignment="Center" AutomationProperties.Name="txttaikhoan" Margin="90,0,90,0">
-                        <TextBox.Background>
-                            <ImageBrush ImageSource="/image/Screenshot 2024-11-21 234658.png"
+                             Padding="35,5,10,0"
+                             VerticalAlignment="Center" AutomationProperties.Name="txttaikhoan" Margin="90,0,90,12" TextWrapping="Wrap">
+                                <TextBox.Background>
+                                    <ImageBrush ImageSource="/image/Screenshot 2024-11-21 234658.png"
                                         AlignmentX="Left"
                                         AlignmentY="Center"
                                         Stretch="Uniform" />
-                        </TextBox.Background>
-                    </TextBox>
-                </Grid>
+                                </TextBox.Background>
+                            </TextBox>
+                        </Grid>
 
-                <!-- Password input -->
-                <Grid Margin="0,10,0,10">
-                    <PasswordBox x:Name="txtmatkhau" Width="300"
+                        <!-- Password input -->
+                        <Grid Width="300" Height="40">
+                            <!-- PasswordBox để nhập mật khẩu -->
+                            <PasswordBox x:Name="txtmatkhau"
+                                 Width="300"
+                                 Height="40"
+                                 FontSize="20"
+                                 BorderBrush="#BBDEFB"
+                                 BorderThickness="1"
+                                 Foreground="Black"
+                                 Padding="35,5,10,0"
+                                 VerticalAlignment="Center"
+                                 Visibility="Visible"
+                                 AutomationProperties.Name="txtmatkhau"
+                                >
+                                <PasswordBox.Background>
+                                    <ImageBrush ImageSource="/image/Screenshot 2024-11-21 234506.png"
+                                        AlignmentX="Left"
+                                        AlignmentY="Center"
+                                        Stretch="Uniform" />
+                                </PasswordBox.Background>
+                            </PasswordBox>
+
+                            <!-- TextBox để hiển thị mật khẩu khi "hiện" -->
+                            <TextBox x:Name="txtmatkhauVisible"
+                             Width="300"
                              Height="40"
-                             FontSize="16"
+                             FontSize="20"
                              BorderBrush="#BBDEFB"
                              BorderThickness="1"
                              Foreground="Black"
-                             Padding="35,0,10,0"
-                             VerticalAlignment="Center" AutomationProperties.Name="txtmatkhau" >
-                        <PasswordBox.Background>
-                            <ImageBrush ImageSource="/image/Screenshot 2024-11-21 234506.png"
+                             Padding="35,5,10,0"
+                             VerticalAlignment="Center"
+                             Visibility="Collapsed"
+                             >
+                                <TextBox.Background>
+                                    <ImageBrush ImageSource="/image/Screenshot 2024-11-21 234506.png"
                                         AlignmentX="Left"
                                         AlignmentY="Center"
                                         Stretch="Uniform" />
-                        </PasswordBox.Background>
-                    </PasswordBox>
-                </Grid>
+                                </TextBox.Background>
+                            </TextBox>
 
-                <!-- Login button -->
-                <Button x:Name="btdangnhap" Content="Đăng nhập"
+                            <!-- Button để hiện/ẩn mật khẩu -->
+                            <Button Width="30"
+                            Height="30"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right"
+                            Margin="0,0,4,0"
+                            >
+                                <Icon:PackIconMaterial Kind="Eye" Width="25" Height="25" Foreground="#54749c" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Button>
+                        </Grid>
+
+                        <!-- Login button -->
+                        <Button x:Name="btdangnhap" Content="Đăng nhập"
                         FontFamily="Segoe UI Symbol"
-                        Background="#FF0F4DCE"
                         Foreground="White"
-                        FontSize="16"
-                        Height="40"
+                        FontSize="20"
+                        Height="44"
                         Width="300"
-                        Margin="0,10,0,10" Click="Button_Click" AutomationProperties.Name="btdangnhap" />
-
-                <!-- Forgot password button -->
-                <Button Content="Quên mật khẩu"
-                        Background="#E3F2FD"
-                        Foreground="#FF0F4DCE"
-                        FontSize="16"
-                        Height="40"
-                        Width="300"
-                        BorderBrush="#BBDEFB"
-                        Margin="0,10,0,0" />
-            </StackPanel>
-
+                        Click="Button_Click"
+                        AutomationProperties.Name="btdangnhap"
+                        Margin="0,20,0,0">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border CornerRadius="10">
+                                        <Border.Background>
+                                            <!-- Gradient Background -->
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                <GradientStop Color="#FF0F4DCE" Offset="0" />
+                                                <GradientStop Color="#FF2196F3" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <!-- Forgot password button -->
+                    </StackPanel>
+                </Grid>
+            </Border>
         </Grid>
+
+
+
+
     </Grid>
 </Window>

@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QLNHANSU"
         mc:Ignorable="d"
-        Title="DashBoard" WindowStyle="None" AllowsTransparency="True" WindowState="Maximized" Width="1600" Height="860">
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        Title="DashBoard" WindowStyle="None"  AllowsTransparency="True" WindowState="Maximized" >
     <Window.Resources>
-        <!-- Màu sắc được định nghĩa -->
+        <!-- Màu sắc định nghĩa -->
         <SolidColorBrush x:Key="PrimaryBlueColor" Color="#2196F3"/>
         <SolidColorBrush x:Key="SecondBlueColor" Color="#FF0F4DCE"/>
-        <!-- Màu khi được click -->
-        <SolidColorBrush x:Key="HoverColor" Color="#FF72CCF6"/>
-        <!-- Màu hover -->
+        <SolidColorBrush x:Key="ActiveButtonColor" Color="#FF72CCF6"/>
+        <!-- Màu khi nút được chọn -->
+        <SolidColorBrush x:Key="HoverColor" Color="#FF9BE0F7"/>
+        <!-- Màu khi di chuột -->
         <SolidColorBrush x:Key="SecondaryTextColor" Color="#FFFFFF"/>
-        <SolidColorBrush x:Key="PrimaryHeaderColor" Color="#000000"/>
-
-        <!-- Style cho Button trong Sidebar -->
-        <Style x:Key="SidebarButtonStyle" TargetType="Button">
+        <!-- Style cho nút Sidebar -->
+        <Style x:Key="SidebarRadioButtonStyle" TargetType="RadioButton">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="14"/>
@@ -26,49 +26,40 @@
             <Setter Property="Width" Value="200"/>
             <Setter Property="HorizontalAlignment" Value="Stretch"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
-            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Margin" Value="0,5,0,5"/>
 
             <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Name="Border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" Padding="{TemplateBinding Padding}">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border Name="Border" Background="Transparent" CornerRadius="5" Padding="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
-
                         <ControlTemplate.Triggers>
-                            <!-- Khi Button được hover -->
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="Border" Property="Background" Value="{StaticResource HoverColor}"/>
-                                <Setter Property="Foreground" Value="White"/>
-                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource HoverColor}"/>
-                            </Trigger>
-
-                            <!-- Khi Button được chọn (đang hiển thị nội dung) -->
-                            <DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource Self}}" Value="True">
+                            <!-- Khi RadioButton được chọn -->
+                            <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="Border" Property="Background" Value="{StaticResource SecondBlueColor}"/>
                                 <Setter Property="Foreground" Value="White"/>
-                            </DataTrigger>
-
-
-                            <!-- Khi Button không được click hoặc hover -->
-                            <Trigger Property="IsMouseOver" Value="False">
+                            </Trigger>
+                            <!-- Khi RadioButton không được chọn -->
+                            <Trigger Property="IsChecked" Value="False">
                                 <Setter TargetName="Border" Property="Background" Value="Transparent"/>
                                 <Setter Property="Foreground" Value="White"/>
-                                <Setter TargetName="Border" Property="BorderBrush" Value="Transparent"/>
+                            </Trigger>
+                            <!-- Khi Hover -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource HoverColor}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
+
+
     </Window.Resources>
-
-
-
-
-    <Grid >
-        <!-- Define layout rows -->
+    
+        <Grid>
         <Grid.RowDefinitions>
             <!-- Thanh trên cùng -->
             <RowDefinition Height="50"/>
@@ -78,13 +69,13 @@
 
         <!-- Thanh trên cùng -->
         <Grid Grid.Row="0" Background="#FF0F4DCE">
-
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0">
-                <!-- Nút "-" -->
-                <Button Width="40" Height="40" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontSize="18" Click="Button_Click_5">
+                <Button Width="40" Height="40" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontSize="18" Click="Button_ThuNho_Click">
+                    <Icon:PackIconMaterial Kind="Minus" Width="24" Height="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
                 </Button>
-                <!-- Nút "x" -->
-                <Button Width="40" Height="40" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontSize="18" Click="Button_Click_4">
+
+                <Button Width="40" Height="40" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontSize="18" Click="Button_DangXuat_Click">
+                    <Icon:PackIconMaterial Kind="Close" Width="24" Height="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
                 </Button>
             </StackPanel>
         </Grid>
@@ -93,360 +84,86 @@
         <DockPanel Grid.Row="1">
             <!-- Sidebar -->
             <DockPanel Width="355" Background="#FF2196F3">
-                <!-- Tiêu đề Sidebar -->
                 <TextBlock DockPanel.Dock="Top"
-               Text="Quản Lý Nhân Sự"
-               FontSize="35"
-               FontWeight="Bold"
-               TextAlignment="Center"
-               Foreground="#FFFFFF"
-               Height="50"
-               Margin="0,25,0,40"/>
+                           Text="Quản Lý Nhân Sự"
+                           FontSize="35"
+                           FontWeight="Bold"
+                           TextAlignment="Center"
+                           Foreground="#FFFFFF"
+                           Height="50"
+                           Margin="0,25,0,40"/>
 
-                <!-- Sidebar Menu (Danh sách các nút phía trên) -->
-                <StackPanel DockPanel.Dock="Top">
-                    <Button Style="{StaticResource SidebarButtonStyle}" Width="355" Height="70" Margin="0,-20,0,0" Click="Button_Click">
-                        <Button.Background>
-                            <ImageBrush/>
-                        </Button.Background>
-                        <StackPanel Orientation="Horizontal" Width="350">
-                            <!-- Sử dụng thẻ Image đúng cú pháp -->
-                            <Image Source="/Image/icons8-analytics-100.png" Width="28" Height="28" Margin="10"/>
+                <!-- Sidebar Menu (Danh sách các nút) -->
+                    <StackPanel DockPanel.Dock="Top">
+                        <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0"  Checked="Button_ThongKe_Click">
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center" >
+                            <Icon:PackIconMaterial Kind="ChartBar" Width="30" Height="30" VerticalAlignment="Center" Foreground="White" Margin="10,0,10,0" />
+                            <TextBlock Text="Thống kê" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
+                        </StackPanel>
+                    </RadioButton>
+                
+                    
+                    <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Checked="Button_CapNhat_Click">
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                            <Icon:PackIconMaterial Kind="AccountEdit" Width="30" Height="30" Margin="10,0,10,0" VerticalAlignment="Center" Foreground="White"/>
                             <TextBlock Text="Cập Nhật Thông Tin Nhân Viên" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
                         </StackPanel>
-                    </Button>
+                    </RadioButton>
 
-
-
-                    <Button Style="{StaticResource SidebarButtonStyle}" Width="355" Height="70" Margin="0,10,0,0" Click="Button_Click_1">
-                        <StackPanel Orientation="Horizontal" Width="350">
-                            <TextBlock Text="Xét Duyệt Thông Tin" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
+                    <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Checked="RadioButton_Checked_1" >
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                            <Icon:PackIconMaterial Kind="CheckCircle" Width="30" Height="30" Margin="10,0,10,0" VerticalAlignment="Center" Foreground="White"/>
+                            <TextBlock Text="Thông Tin Tăng Ca" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
                         </StackPanel>
-                    </Button>
+                    </RadioButton>
 
-                    <Button Style="{StaticResource SidebarButtonStyle}" Width="355" Height="70" Margin="0,10,0,0" Click="Button_Click_2">
-                        <StackPanel Orientation="Horizontal" Width="350">
+                    <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Checked="Button_QuanLyThongTin_Click">
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                                <Icon:PackIconMaterial Kind="AccountGroup" Width="30" Height="30" Margin="10,0,10,0" VerticalAlignment="Center" Foreground="White"/>
                             <TextBlock Text="Quản Lý Thông Tin Nhân Viên" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
                         </StackPanel>
-                    </Button>
+                    </RadioButton>
 
-                    <Button Style="{StaticResource SidebarButtonStyle}" Width="355" Height="70" Margin="0,10,0,0">
-                        <StackPanel Orientation="Horizontal" Width="350">
-                            <TextBlock Text="Chấm Công" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
-                        </StackPanel>
-                    </Button>
-
-                    <Button Style="{StaticResource SidebarButtonStyle}" Width="355" Height="70" Margin="0,10,0,0" Click="Button_Click_3">
-                        <StackPanel Orientation="Horizontal" Width="350">
+                   
+                    <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Checked="Button_CongTac_Click">
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                                <Icon:PackIconMaterial Kind="Briefcase" Width="30" Height="30" Margin="10,0,10,0" VerticalAlignment="Center" Foreground="White"/>
                             <TextBlock Text="Quản Lý Công Tác" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
                         </StackPanel>
-                    </Button>
+                    </RadioButton>
+                        <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Checked="Button_ChamCong_Click">
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                                <Icon:PackIconMaterial Kind="ClockIn" Width="30" Height="30" VerticalAlignment="Center" Foreground="White" Margin="10,0,10,0" />
+                                <TextBlock Text="Quản Lý Thông Tin Chấm Công" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
+                            </StackPanel>
+                        </RadioButton>
 
-                    <Button Style="{StaticResource SidebarButtonStyle}" Width="355" Height="70" Margin="0,10,0,0">
-                        <StackPanel Orientation="Horizontal" Width="350">
-                            <TextBlock Text="Thống Kê" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
+                        <RadioButton Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Checked="Button_Luong_Click">
+                            <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                                <Icon:PackIconMaterial Kind="Briefcase" Width="30" Height="30" Margin="10,0,10,0" VerticalAlignment="Center" Foreground="White"/>
+                                <TextBlock Text="Quản Lý Bảng Lương" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
+                            </StackPanel>
+                        </RadioButton>
+
+                    <!-- Nút Đăng Xuất (Đặt ở dưới cùng) -->
+                    <RadioButton  Style="{StaticResource SidebarRadioButtonStyle}" Width="380" Height="70" Margin="0,0,0,0" Click="Button_DangXuat_Click">
+                        <StackPanel Orientation="Horizontal" Width="375" HorizontalAlignment="Center">
+                            <Icon:PackIconMaterial Kind="LogoutVariant" Width="30" Height="30" Margin="10,0,10,0" VerticalAlignment="Center" Foreground="White"/>
+                            <TextBlock Text="Đăng Xuất" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"/>
                         </StackPanel>
-                    </Button>
+                    </RadioButton>
+
                 </StackPanel>
+                    
 
-                <!-- Nút Đăng Xuất (Đặt ở dưới cùng) -->
-                <Button DockPanel.Dock="Bottom" Style="{StaticResource SidebarButtonStyle}" Width="355" Height="55" Margin="0,200,0,0">
-                    <StackPanel Orientation="Horizontal" Width="354">
-                        <TextBlock Text="Đăng Xuất" VerticalAlignment="Center" FontSize="20" Foreground="White" FontWeight="Bold"/>
-                    </StackPanel>
-                </Button>
+                  
             </DockPanel>
-
-
-
-
-
-
-
-
-            <Grid Background="Transparent" x:Name="panelMainContent" Width="1245" Height="810">
-
-                <!-- Tab Control -->
-                <TabControl Grid.ColumnSpan="2" Margin="0,-9.2">
-                    <!-- Tab 1: Thông tin cơ bản -->
-                    <TabItem Header="Thông tin cơ bản" Style="{StaticResource TabItemStyle}" VerticalAlignment="Center" Width="200">
-                        <Grid Margin="0,-2,0,0">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="89*"/>
-                                <ColumnDefinition Width="299*"/>
-                            </Grid.ColumnDefinitions>
-                            <!-- Define Grid Layout -->
-                            <Grid Grid.ColumnSpan="2">
-                                <Grid.ColumnDefinitions >
-                                    <ColumnDefinition Width="568*" />
-                                    <ColumnDefinition Width="673*" />
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="2*" />
-                                    <!-- Hàng 1 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 2 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 3 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 4 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 5 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 6 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 7 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 8 -->
-                                    <RowDefinition Height="1.5*" />
-                                    <!-- Hàng 9 -->
-                                </Grid.RowDefinitions>
-
-
-                                <!-- Column 1 -->
-                                <!-- Circle for Avatar -->
-                                <Border Grid.Row="0" Grid.RowSpan="4" 
-     CornerRadius="140,140,140,140" Width="280" Height="280" 
-     Background="#CFCFCF" 
-     HorizontalAlignment="Center" VerticalAlignment="Center">
-                                    <TextBlock Text="Avatar" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" FontWeight="Bold" />
-                                </Border>
-
-                                <!-- Mã nhân viên -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="0" Margin="10,10,10,10">
-                                    <TextBlock Text="Mã Nhân Viên:" Width="184" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <TextBox Width="260" Height="45" />
-                                </StackPanel>
-
-                                <!-- Phòng ban -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="0" Margin="10,10,10,10">
-                                    <TextBlock Text="Phòng Ban:" Width="184" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <TextBox Width="260" Height="45" />
-                                </StackPanel>
-
-                                <!-- Bộ phận -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="6" Grid.Column="0" Margin="10,10,10,10">
-                                    <TextBlock Text="Bộ Phận:" Width="184" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <TextBox Width="260" Height="45" />
-                                </StackPanel>
-
-                                <!-- Chức vụ -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="0" Margin="10,10,10,10">
-                                    <TextBlock Text="Chức Vụ:" Width="184" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <TextBox Width="260" Height="45" />
-                                </StackPanel>
-
-                                <!-- Column 2 -->
-                                <!-- Họ và tên -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Margin="10,30,10,10">
-                                    <TextBlock Text="Họ và Tên:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="300" Height="45" />
-                                </StackPanel>
-
-                                <!-- Ngày sinh -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Ngày Sinh:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <DatePicker Width="300" Height="45" />
-                                </StackPanel>
-
-                                <!-- Giới tính -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Giới Tính:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <StackPanel Orientation="Horizontal" Margin="5" Width="260">
-                                        <RadioButton Content="Nam" GroupName="Gender" Margin="5" Width="110" />
-                                        <RadioButton Content="Nữ" GroupName="Gender" Margin="5" Width="63" />
-                                    </StackPanel>
-                                </StackPanel>
-
-                                <!-- Căn cước công dân -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Căn Cước Công Dân:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="300" Height="45" />
-                                </StackPanel>
-
-                                <!-- Email -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Email:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="300" Height="45" />
-                                </StackPanel>
-
-                                <!-- Số điện thoại -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Số Điện Thoại:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="300" Height="45" />
-                                </StackPanel>
-
-                                <!-- Địa chỉ -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="6" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Địa Chỉ:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="300" Height="45" />
-                                </StackPanel>
-
-                                <!-- Mã HĐLĐ -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1" Margin="10,10,10,10">
-                                    <TextBlock Text="Mã HĐLĐ:" Width="220" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="300" Height="45" />
-                                </StackPanel>
-                                <!-- Button Layout -->
-                                <StackPanel Grid.Row="7" Orientation="Horizontal" HorizontalAlignment="Left" Width="575" Grid.Column="1" Margin="-7,71,0,0" Grid.RowSpan="2">
-                                    <Button Width="135" Height="45" Margin="10,10,0,10" Background="#FF0F4DCE" Foreground="White" BorderThickness="0">
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <!-- Icon "Thêm" -->
-                                            <!-- Nội dung văn bản -->
-                                            <TextBlock Text=" Thêm" VerticalAlignment="Center" />
-                                        </StackPanel>
-                                    </Button>
-                                    <Button Width="135" Height="45" Margin="57,10,10,10" Background="#FF2196F3" Foreground="White" BorderThickness="0" RenderTransformOrigin="1.375,0.584">
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <!-- Icon "Sửa" -->
-                                            <!-- Nội dung văn bản -->
-                                            <TextBlock Text=" Sửa" VerticalAlignment="Center" />
-                                        </StackPanel>
-                                    </Button>
-                                    <Button Width="140" Height="45" Margin="50,10,10,10" Background="#FFDA1026" Foreground="White" BorderThickness="0" RenderTransformOrigin="1.375,0.584">
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <!-- Icon "Xóa" -->
-                                            <!-- Nội dung văn bản -->
-                                            <TextBlock Text=" Xóa" VerticalAlignment="Center" />
-                                        </StackPanel>
-                                    </Button>
-                                </StackPanel>
-                            </Grid>
-                        </Grid>
-                    </TabItem>
-
-
-
-
-                    <!-- Tab 2: Thông tin hđlđ -->
-                    <TabItem Header="Thông tin HĐLĐ" Style="{StaticResource TabItemStyle}" VerticalAlignment="Center" Width="200">
-                        <Grid Margin="0,-2,0,0">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="89*"/>
-                                <ColumnDefinition Width="299*"/>
-                            </Grid.ColumnDefinitions>
-                            <!-- Define Grid Layout -->
-                            <Grid Grid.ColumnSpan="2">
-                                <Grid.ColumnDefinitions >
-                                    <ColumnDefinition Width="213*" />
-                                    <ColumnDefinition Width="465*"/>
-                                    <ColumnDefinition Width="510*" />
-                                    <ColumnDefinition Width="53*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="1*" />
-                                    <!-- Hàng 1: Chiều cao cố định 70px -->
-                                    <RowDefinition Height="1*" />
-                                    <!-- Hàng 2: Chiều cao cố định 50px -->
-                                    <RowDefinition Height="1*" />
-                                    <!-- Hàng 3 -->
-                                    <RowDefinition Height="1*" />
-                                    <!-- Hàng 4 -->
-                                    <RowDefinition Height="1*" />
-                                    <!-- Hàng 5 -->
-                                    <RowDefinition />
-                                </Grid.RowDefinitions>
-
-                                <!-- Column 1 -->
-                                <!-- Circle for Avatar -->
-
-                                <!--  -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Margin="10,30,10,10" Grid.ColumnSpan="2">
-                                    <TextBlock Text="Mã Hợp Đồng Lao Động:" Width="262" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <TextBox Width="250" Height="45" />
-                                </StackPanel>
-
-                                <!--  -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="10,10,10,10" Grid.ColumnSpan="2">
-                                    <TextBlock Text="Ngày Kí Hợp Đồng:" Width="241" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <DatePicker Width="250" Height="45" Margin="23,0,0,0" />
-                                </StackPanel>
-
-                                <!--  -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Margin="10,10,10,10" Grid.ColumnSpan="2">
-                                    <TextBlock Text="Ngày Bắt Đầu:" Width="243" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <DatePicker Width="250" Height="45" Margin="23,0,0,0"/>
-                                </StackPanel>
-
-                                <!-- -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Margin="10,10,10,10" Grid.ColumnSpan="2">
-                                    <TextBlock Text="Ngày Kết Thúc:" Width="243" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <DatePicker Width="250" Height="45" Margin="23,0,0,0"/>
-                                </StackPanel>
-
-                                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="0" Margin="10,10,10,10" Grid.ColumnSpan="2">
-                                    <TextBlock Text="Lương Cơ Bản:" Width="243" VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0" Foreground="#FF080707" />
-                                    <TextBox Width="250" Height="45" Margin="23,0,0,0" />
-                                </StackPanel>
-
-                                <!-- Column 2 -->
-                                <!--  -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" Margin="10,30,-20,10" Grid.ColumnSpan="2">
-                                    <TextBlock Text="Mã Nhân Viên:" Width="171" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="250" Height="45" />
-                                </StackPanel>
-
-                                <!-- Ngày sinh -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="2" Margin="10,10,4,10">
-                                    <TextBlock Text="Mã Phòng ban:" Width="171" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <DatePicker Width="250" Height="45" />
-                                </StackPanel>
-
-                                <!--  -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="2" Margin="10,10,0,10">
-                                    <TextBlock Text="Mã Bộ Phận:" Width="171" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="250" Height="45" />
-
-                                </StackPanel>
-
-                                <!-- Căn cước công dân -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="2" Margin="10,10,0,10">
-                                    <TextBlock Text="Mã Chức Vụ:" Width="171" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="250" Height="45" />
-                                </StackPanel>
-
-                                <!-- Email -->
-                                <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="2" Margin="10,10,0,10">
-                                    <TextBlock Text="Hệ Số Lương:" Width="171" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF080707" />
-                                    <TextBox Width="250" Height="45" />
-                                </StackPanel>
-
-                                <!-- Button Layout -->
-                                <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" Width="562" Grid.Column="1" Grid.ColumnSpan="2" Margin="300,0,0,0">
-                                    <Button Width="135" Height="45" Margin="10,10,0,10" Background="#FF0F4DCE" Foreground="White" BorderThickness="0">
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <!-- Icon "Thêm" -->
-                                            <!-- Nội dung văn bản -->
-                                            <TextBlock Text=" Thêm" VerticalAlignment="Center" />
-                                        </StackPanel>
-                                    </Button>
-                                    <Button Width="135" Height="45" Margin="57,10,10,10" Background="#FF2196F3" Foreground="White" BorderThickness="0" RenderTransformOrigin="1.375,0.584">
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <!-- Icon "Sửa" -->
-                                            <!-- Nội dung văn bản -->
-                                            <TextBlock Text=" Sửa" VerticalAlignment="Center" />
-                                        </StackPanel>
-                                    </Button>
-                                    <Button Width="140" Height="45" Margin="50,10,10,10" Background="#FFDA1026" Foreground="White" BorderThickness="0" RenderTransformOrigin="1.375,0.584">
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                            <!-- Icon "Xóa" -->
-                                            <!-- Nội dung văn bản -->
-                                            <TextBlock Text=" Xóa" VerticalAlignment="Center" />
-                                        </StackPanel>
-                                    </Button>
-                                </StackPanel>
-                            </Grid>
-                        </Grid>
-                    </TabItem>
-
-
-
-
-
-
-                </TabControl>
-            </Grid>
+            <Viewbox Stretch="Fill" VerticalAlignment="Center" >
+                <Grid Background="Transparent" x:Name="panelMainContent" Width="1245" Height="855">
+                    <!-- Nội dung chính sẽ được tải ở đây -->
+                </Grid>
+            </Viewbox>
         </DockPanel>
-    </Grid>
+        </Grid>
+   
 </Window>

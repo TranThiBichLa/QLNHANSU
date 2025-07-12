@@ -1,0 +1,1462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QLNHANSU (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dashboard1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dashboard1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dangki1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dangki1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\capnhat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:capnhat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\capnhat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:capnhat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\quanlythongtin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:quanlythongtin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\quanlythongtin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:quanlythongtin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\nhanvienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\nhanvienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\nhanvienaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\nhanvienaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\congtac.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:congtac.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|d:\\qlnhansu (1)\\bll\\quanlynhansudataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\quanlynhansudataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|d:\\qlnhansu (1)\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\editinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:editinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\editinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:editinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\editbaohiem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:editbaohiem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\trinhdoaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\trinhdoaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\tangca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:tangca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\edittrinhdo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:edittrinhdo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\dangkiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\dangkiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\enterpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:enterpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\enterpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:enterpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\globaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:globaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\imagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:imagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xtttangca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xtttangca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\edithopdong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:edithopdong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xttcoban.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xttcoban.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\tangcaaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\tangcaaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\tangca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\tangca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\tangca.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:tangca.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\tangcabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\tangcabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\hopdonglaodongaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\hopdonglaodongaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\taikhoanaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoanaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\edittrinhdo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:edittrinhdo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\editbaohiem.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:editbaohiem.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dangki1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dangki1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\congtac.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:congtac.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\trinhdobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\trinhdobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\xttcobanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\xttcobanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\hopdonglaodongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\hopdonglaodongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\dangkibll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\dangkibll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\congtacbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\congtacbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\baohiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\baohiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\xtttangcabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\xtttangcabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\xttcongtac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\xttcongtac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\xttcoban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\xttcoban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\xtttangcaaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\xtttangcaaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\xtthdldaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\xtthdldaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\congtacaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\congtacaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\trinhdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\trinhdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\xtthdld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\xtthdld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\hopdonglaodong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\hopdonglaodong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\baohiemaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\baohiemaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\congtac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\congtac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\baohiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\baohiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\bophan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\bophan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\chucvubll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\chucvubll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dashboard1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dashboard1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xtttangca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xtttangca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xtthdld.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xtthdld.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\xttcobanaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\xttcobanaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QLNHANSU (1)\\obj\\Debug\\DangKi1.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\DangKi1.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\xtthdldbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\xtthdldbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xtthdld.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xtthdld.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xttcongtac.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xttcongtac.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xttcongtac.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xttcongtac.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\xttcongtacbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\xttcongtacbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\xttcongtacaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\xttcongtacaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\xttcoban.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:xttcoban.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\dangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:dangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\quyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\quyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\databaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\databaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\resources\\avatar-trang-4.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:resources\\avatar-trang-4.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\imagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:imagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|D:\\QLNHANSU (1)\\edithopdong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757360C-C07E-435E-9BFD-B26BEBA04F61}|QLNHANSU.csproj|solutionrelative:edithopdong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\chucvuaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\chucvuaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|D:\\QLNHANSU (1)\\dto\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F4B231-D1C0-408A-ACC7-0D5865C9FC89}|DTO\\DTO.csproj|solutionrelative:dto\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|D:\\QLNHANSU (1)\\dal\\bangcongaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F919A228-7BAD-4C6E-A200-3858B6637C52}|DAL\\DAL.csproj|solutionrelative:dal\\bangcongaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|D:\\QLNHANSU (1)\\bll\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FE8D9A-D128-4EDF-AC42-52CAC1BCF1F5}|BLL\\BLL.csproj|solutionrelative:bll\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CapNhat.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\CapNhat.xaml",
+              "RelativeDocumentMoniker": "CapNhat.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\CapNhat.xaml",
+              "RelativeToolTip": "CapNhat.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-26T04:20:43.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVienBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\NhanVienBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhanVienBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\NhanVienBLL.cs",
+              "RelativeToolTip": "BLL\\NhanVienBLL.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:18:00.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CapNhat.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\CapNhat.xaml.cs",
+              "RelativeDocumentMoniker": "CapNhat.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\CapNhat.xaml.cs",
+              "RelativeToolTip": "CapNhat.xaml.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAkwMYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T05:06:28.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLyThongTin.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\QuanLyThongTin.xaml",
+              "RelativeDocumentMoniker": "QuanLyThongTin.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\QuanLyThongTin.xaml",
+              "RelativeToolTip": "QuanLyThongTin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T07:46:52.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DangKi1.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DangKi1.xaml",
+              "RelativeDocumentMoniker": "DangKi1.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\DangKi1.xaml",
+              "RelativeToolTip": "DangKi1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-29T04:28:02.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashBoard1.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DashBoard1.xaml",
+              "RelativeDocumentMoniker": "DashBoard1.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\DashBoard1.xaml",
+              "RelativeToolTip": "DashBoard1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T07:50:48.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVienAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\NhanVienAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\NhanVienAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\NhanVienAccess.cs",
+              "RelativeToolTip": "DAL\\NhanVienAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:13:49.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditHopDong.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditHopDong.xaml",
+              "RelativeDocumentMoniker": "EditHopDong.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditHopDong.xaml",
+              "RelativeToolTip": "EditHopDong.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-24T01:47:14.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditBaoHiem.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditBaoHiem.xaml",
+              "RelativeDocumentMoniker": "EditBaoHiem.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditBaoHiem.xaml",
+              "RelativeToolTip": "EditBaoHiem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T09:26:56.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditInfo.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditInfo.xaml.cs",
+              "RelativeDocumentMoniker": "EditInfo.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditInfo.xaml.cs",
+              "RelativeToolTip": "EditInfo.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAzwKQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:15:58.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditInfo.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditInfo.xaml",
+              "RelativeDocumentMoniker": "EditInfo.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditInfo.xaml",
+              "RelativeToolTip": "EditInfo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T15:10:37.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Resource1.resx",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\Resource1.resx",
+              "RelativeDocumentMoniker": "Resource1.resx",
+              "ToolTip": "D:\\QLNHANSU (1)\\Resource1.resx",
+              "RelativeToolTip": "Resource1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-12-16T02:47:10.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuanLyThongTin.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\QuanLyThongTin.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyThongTin.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\QuanLyThongTin.xaml.cs",
+              "RelativeToolTip": "QuanLyThongTin.xaml.cs",
+              "ViewState": "AgIAAGABAAAAAAAAAAAewGcBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:47:13.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CongTac.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\CongTac.xaml",
+              "RelativeDocumentMoniker": "CongTac.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\CongTac.xaml",
+              "RelativeToolTip": "CongTac.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-26T04:36:02.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QUANLYNHANSUDataSet.xsd",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\QUANLYNHANSUDataSet.xsd",
+              "RelativeDocumentMoniker": "BLL\\QUANLYNHANSUDataSet.xsd",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\QUANLYNHANSUDataSet.xsd",
+              "RelativeToolTip": "BLL\\QUANLYNHANSUDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-01-04T10:42:09.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashBoard.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DashBoard.xaml",
+              "RelativeDocumentMoniker": "DashBoard.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\DashBoard.xaml",
+              "RelativeToolTip": "DashBoard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T05:02:42.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BoPhan.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\BoPhan.cs",
+              "RelativeDocumentMoniker": "DTO\\BoPhan.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\BoPhan.cs",
+              "RelativeToolTip": "DTO\\BoPhan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:39:51.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImageWindow.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\ImageWindow.xaml",
+              "RelativeDocumentMoniker": "ImageWindow.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\ImageWindow.xaml",
+              "RelativeToolTip": "ImageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T12:39:30.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DashBoard.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DashBoard.xaml.cs",
+              "RelativeDocumentMoniker": "DashBoard.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DashBoard.xaml.cs",
+              "RelativeToolTip": "DashBoard.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAEwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:27:18.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "D:\\QLNHANSU (1)\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-02T16:20:02.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\NhanVien.cs",
+              "RelativeDocumentMoniker": "DTO\\NhanVien.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\NhanVien.cs",
+              "RelativeToolTip": "DTO\\NhanVien.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:36:09.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TrinhDoAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\TrinhDoAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\TrinhDoAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\TrinhDoAccess.cs",
+              "RelativeToolTip": "DAL\\TrinhDoAccess.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwD8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:13:08.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DangKi1.g.i.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\obj\\Debug\\DangKi1.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\DangKi1.g.i.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\obj\\Debug\\DangKi1.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\DangKi1.g.i.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAIA7wMMAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T13:21:01.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "XttCongTac.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttCongTac.xaml.cs",
+              "RelativeDocumentMoniker": "XttCongTac.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttCongTac.xaml.cs",
+              "RelativeToolTip": "XttCongTac.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwCEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:45:14.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DTO\\TaiKhoan.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\TaiKhoan.cs",
+              "RelativeToolTip": "DTO\\TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:20:46.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Quyen.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\Quyen.cs",
+              "RelativeDocumentMoniker": "DTO\\Quyen.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\Quyen.cs",
+              "RelativeToolTip": "DTO\\Quyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:53:40.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TangCa.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\TangCa.xaml",
+              "RelativeDocumentMoniker": "TangCa.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\TangCa.xaml",
+              "RelativeToolTip": "TangCa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T09:34:53.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ChucVuBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\ChucVuBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ChucVuBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\ChucVuBLL.cs",
+              "RelativeToolTip": "BLL\\ChucVuBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:49:03.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DangNhap.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DangNhap.xaml",
+              "RelativeDocumentMoniker": "DangNhap.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\DangNhap.xaml",
+              "RelativeToolTip": "DangNhap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T08:43:46.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EnterPasswordWindow.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EnterPasswordWindow.xaml",
+              "RelativeDocumentMoniker": "EnterPasswordWindow.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\EnterPasswordWindow.xaml",
+              "RelativeToolTip": "EnterPasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T15:56:55.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditTrinhDo.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditTrinhDo.xaml",
+              "RelativeDocumentMoniker": "EditTrinhDo.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditTrinhDo.xaml",
+              "RelativeToolTip": "EditTrinhDo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T09:28:29.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DangKiAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\DangKiAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\DangKiAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\DangKiAccess.cs",
+              "RelativeToolTip": "DAL\\DangKiAccess.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAA7wE0AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:36:25.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DangKi.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\DangKi.cs",
+              "RelativeDocumentMoniker": "DTO\\DangKi.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\DangKi.cs",
+              "RelativeToolTip": "DTO\\DangKi.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:35:43.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EnterPasswordWindow.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EnterPasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EnterPasswordWindow.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\EnterPasswordWindow.xaml.cs",
+              "RelativeToolTip": "EnterPasswordWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:57:31.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GlobalData.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\GlobalData.cs",
+              "RelativeDocumentMoniker": "GlobalData.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\GlobalData.cs",
+              "RelativeToolTip": "GlobalData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:01:06.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BaoHiem.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\BaoHiem.cs",
+              "RelativeDocumentMoniker": "DTO\\BaoHiem.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\BaoHiem.cs",
+              "RelativeToolTip": "DTO\\BaoHiem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:05:51.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "XttTangCa.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttTangCa.xaml",
+              "RelativeDocumentMoniker": "XttTangCa.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttTangCa.xaml",
+              "RelativeToolTip": "XttTangCa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T07:21:44.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BaoHiemAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\BaoHiemAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\BaoHiemAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\BaoHiemAccess.cs",
+              "RelativeToolTip": "DAL\\BaoHiemAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:08:46.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CongTac.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\CongTac.cs",
+              "RelativeDocumentMoniker": "DTO\\CongTac.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\CongTac.cs",
+              "RelativeToolTip": "DTO\\CongTac.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:06:51.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CongTacBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\CongTacBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\CongTacBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\CongTacBLL.cs",
+              "RelativeToolTip": "BLL\\CongTacBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:19:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "XttTangCa.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttTangCa.xaml.cs",
+              "RelativeDocumentMoniker": "XttTangCa.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttTangCa.xaml.cs",
+              "RelativeToolTip": "XttTangCa.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:30:57.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "XttHDLDBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\XttHDLDBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\XttHDLDBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\XttHDLDBLL.cs",
+              "RelativeToolTip": "BLL\\XttHDLDBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T11:05:50.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BaoHiemBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\BaoHiemBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BaoHiemBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\BaoHiemBLL.cs",
+              "RelativeToolTip": "BLL\\BaoHiemBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:18:36.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "app.config",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\app.config",
+              "RelativeDocumentMoniker": "BLL\\app.config",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\app.config",
+              "RelativeToolTip": "BLL\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-15T03:54:46.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ImageWindow.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\ImageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ImageWindow.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\ImageWindow.xaml.cs",
+              "RelativeToolTip": "ImageWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:40:01.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T04:04:43.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DatabaseAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\DatabaseAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\DatabaseAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\DatabaseAccess.cs",
+              "RelativeToolTip": "DAL\\DatabaseAccess.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:41:04.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "XttCoBan.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttCoBan.xaml",
+              "RelativeDocumentMoniker": "XttCoBan.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttCoBan.xaml",
+              "RelativeToolTip": "XttCoBan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-29T05:22:45.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TangCaAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\TangCaAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\TangCaAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\TangCaAccess.cs",
+              "RelativeToolTip": "DAL\\TangCaAccess.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:12:22.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TangCa.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\TangCa.xaml.cs",
+              "RelativeDocumentMoniker": "TangCa.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\TangCa.xaml.cs",
+              "RelativeToolTip": "TangCa.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:35:13.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "BLL\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "BLL\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:21:02.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "XttCongTacBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\XttCongTacBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\XttCongTacBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\XttCongTacBLL.cs",
+              "RelativeToolTip": "BLL\\XttCongTacBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:47:38.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "XttCongTac.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttCongTac.xaml",
+              "RelativeDocumentMoniker": "XttCongTac.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttCongTac.xaml",
+              "RelativeToolTip": "XttCongTac.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-28T10:44:54.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TangCa.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\TangCa.cs",
+              "RelativeDocumentMoniker": "DTO\\TangCa.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\TangCa.cs",
+              "RelativeToolTip": "DTO\\TangCa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:07:36.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EditTrinhDo.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditTrinhDo.xaml.cs",
+              "RelativeDocumentMoniker": "EditTrinhDo.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditTrinhDo.xaml.cs",
+              "RelativeToolTip": "EditTrinhDo.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:29:09.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CongTac.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\CongTac.xaml.cs",
+              "RelativeDocumentMoniker": "CongTac.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\CongTac.xaml.cs",
+              "RelativeToolTip": "CongTac.xaml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAA6wHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:24:12.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TrinhDoBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\TrinhDoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\TrinhDoBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\TrinhDoBLL.cs",
+              "RelativeToolTip": "BLL\\TrinhDoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:21:35.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "XttCoBan.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttCoBan.xaml.cs",
+              "RelativeDocumentMoniker": "XttCoBan.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttCoBan.xaml.cs",
+              "RelativeToolTip": "XttCoBan.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:33:54.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TangCaBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\TangCaBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\TangCaBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\TangCaBLL.cs",
+              "RelativeToolTip": "BLL\\TangCaBLL.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wBQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:21:10.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HopDongLaoDongAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\HopDongLaoDongAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\HopDongLaoDongAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\HopDongLaoDongAccess.cs",
+              "RelativeToolTip": "DAL\\HopDongLaoDongAccess.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA6wB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:19:36.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TaiKhoanAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\TaiKhoanAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\TaiKhoanAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\TaiKhoanAccess.cs",
+              "RelativeToolTip": "DAL\\TaiKhoanAccess.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA6wC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:43:49.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EditBaoHiem.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditBaoHiem.xaml.cs",
+              "RelativeDocumentMoniker": "EditBaoHiem.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditBaoHiem.xaml.cs",
+              "RelativeToolTip": "EditBaoHiem.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA6wD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:28:01.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "XttCongTacAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\XttCongTacAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\XttCongTacAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\XttCongTacAccess.cs",
+              "RelativeToolTip": "DAL\\XttCongTacAccess.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:47:06.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "XttHDLD.xaml",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttHDLD.xaml",
+              "RelativeDocumentMoniker": "XttHDLD.xaml",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttHDLD.xaml",
+              "RelativeToolTip": "XttHDLD.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-23T14:16:58.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DangKi1.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DangKi1.xaml.cs",
+              "RelativeDocumentMoniker": "DangKi1.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DangKi1.xaml.cs",
+              "RelativeToolTip": "DangKi1.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwFMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:48:28.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HopDongLaoDongBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\HopDongLaoDongBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\HopDongLaoDongBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\HopDongLaoDongBLL.cs",
+              "RelativeToolTip": "BLL\\HopDongLaoDongBLL.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:18:03.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DangKiBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\DangKiBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\DangKiBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\DangKiBLL.cs",
+              "RelativeToolTip": "BLL\\DangKiBLL.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAA6wIIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:46:38.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DangNhap.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DangNhap.xaml.cs",
+              "RelativeDocumentMoniker": "DangNhap.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DangNhap.xaml.cs",
+              "RelativeToolTip": "DangNhap.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwEMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T08:37:44.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ChucVuAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\ChucVuAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\ChucVuAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\ChucVuAccess.cs",
+              "RelativeToolTip": "DAL\\ChucVuAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:47:59.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TaiKhoanBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\TaiKhoanBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\TaiKhoanBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\TaiKhoanBLL.cs",
+              "RelativeToolTip": "BLL\\TaiKhoanBLL.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T03:59:52.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "XttCoBanBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\XttCoBanBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\XttCoBanBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\XttCoBanBLL.cs",
+              "RelativeToolTip": "BLL\\XttCoBanBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:29:19.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "XttCongTac.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\XttCongTac.cs",
+              "RelativeDocumentMoniker": "DTO\\XttCongTac.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\XttCongTac.cs",
+              "RelativeToolTip": "DTO\\XttCongTac.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:45:47.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "XttCoBan.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\XttCoBan.cs",
+              "RelativeDocumentMoniker": "DTO\\XttCoBan.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\XttCoBan.cs",
+              "RelativeToolTip": "DTO\\XttCoBan.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:30:39.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "XttTangCaAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\XttTangCaAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\XttTangCaAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\XttTangCaAccess.cs",
+              "RelativeToolTip": "DAL\\XttTangCaAccess.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA6wEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:43:05.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "XttHDLDAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\XttHDLDAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\XttHDLDAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\XttHDLDAccess.cs",
+              "RelativeToolTip": "DAL\\XttHDLDAccess.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA8wDMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:53:23.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "XttTangCaBLL.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\BLL\\XttTangCaBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\XttTangCaBLL.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\BLL\\XttTangCaBLL.cs",
+              "RelativeToolTip": "BLL\\XttTangCaBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:43:55.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CongTacAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\CongTacAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\CongTacAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\CongTacAccess.cs",
+              "RelativeToolTip": "DAL\\CongTacAccess.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA7wFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:11:34.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TrinhDo.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\TrinhDo.cs",
+              "RelativeDocumentMoniker": "DTO\\TrinhDo.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\TrinhDo.cs",
+              "RelativeToolTip": "DTO\\TrinhDo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:08:05.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "XttHDLD.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\XttHDLD.cs",
+              "RelativeDocumentMoniker": "DTO\\XttHDLD.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\XttHDLD.cs",
+              "RelativeToolTip": "DTO\\XttHDLD.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:52:53.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HopDongLaoDong.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\HopDongLaoDong.cs",
+              "RelativeDocumentMoniker": "DTO\\HopDongLaoDong.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\HopDongLaoDong.cs",
+              "RelativeToolTip": "DTO\\HopDongLaoDong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:16:57.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DashBoard1.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DashBoard1.xaml.cs",
+              "RelativeDocumentMoniker": "DashBoard1.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DashBoard1.xaml.cs",
+              "RelativeToolTip": "DashBoard1.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAzwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T04:56:16.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAA3wDkBAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T17:06:28.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "avatar-trang-4.jpg",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\Resources\\avatar-trang-4.jpg",
+              "RelativeDocumentMoniker": "Resources\\avatar-trang-4.jpg",
+              "ToolTip": "D:\\QLNHANSU (1)\\Resources\\avatar-trang-4.jpg",
+              "RelativeToolTip": "Resources\\avatar-trang-4.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-28T07:45:13.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "XttHDLD.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\XttHDLD.xaml.cs",
+              "RelativeDocumentMoniker": "XttHDLD.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\XttHDLD.xaml.cs",
+              "RelativeToolTip": "XttHDLD.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:52:12.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "XttCoBanAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\XttCoBanAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\XttCoBanAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\XttCoBanAccess.cs",
+              "RelativeToolTip": "DAL\\XttCoBanAccess.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwEsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:30:08.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "EditHopDong.xaml.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\EditHopDong.xaml.cs",
+              "RelativeDocumentMoniker": "EditHopDong.xaml.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\EditHopDong.xaml.cs",
+              "RelativeToolTip": "EditHopDong.xaml.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAiwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:48:23.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ChucVu.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\ChucVu.cs",
+              "RelativeDocumentMoniker": "DTO\\ChucVu.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\ChucVu.cs",
+              "RelativeToolTip": "DTO\\ChucVu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:40:51.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "PhongBan.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DTO\\PhongBan.cs",
+              "RelativeDocumentMoniker": "DTO\\PhongBan.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DTO\\PhongBan.cs",
+              "RelativeToolTip": "DTO\\PhongBan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:38:57.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "BangCongAccess.cs",
+              "DocumentMoniker": "D:\\QLNHANSU (1)\\DAL\\BangCongAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\BangCongAccess.cs",
+              "ToolTip": "D:\\QLNHANSU (1)\\DAL\\BangCongAccess.cs",
+              "RelativeToolTip": "DAL\\BangCongAccess.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:46:43.969Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="QLNHANSU.QuanLyChamCong"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QLNHANSU"
+             mc:Ignorable="d" 
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             d:DesignHeight="810" d:DesignWidth="1245">
+    <Grid Background="White">
+        <!-- Top Search Bar -->
+        <Grid Height="72" Margin="3,-380,3,400" Background="#FF72CCF6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="280" />
+                <ColumnDefinition Width="230" />
+                <ColumnDefinition Width="230" />
+                <ColumnDefinition Width="230" />
+                <ColumnDefinition Width="Auto" />
+             
+            </Grid.ColumnDefinitions>
+
+            <!-- Employee ID -->
+            <StackPanel Orientation="Horizontal" Grid.Column="0" VerticalAlignment="Center" Margin="-28,0,26,0" Height="44">
+                <TextBlock Text="MANV:" Width="Auto" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" Margin="50,0,0,0" />
+                <TextBox Padding="0,7,0,0" x:Name="txtMaNhanVien" Width="200" Height="44" FontSize="20" Margin="5,0,0,0" TextChanged="txtMaNhanVien_TextChanged" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="5,0,5,0" VerticalAlignment="Center" Height="54">
+                <TextBlock Text="Tháng:" VerticalAlignment="Center" Margin="5" FontSize="20" FontWeight="Bold" />
+                <ComboBox x:Name="cbThang" Width="129" Margin="5" Height="44" SelectionChanged="cbThang_SelectionChanged" FontSize="20" FontWeight="Bold">
+                    <ComboBoxItem Content="1" />
+                    <ComboBoxItem Content="2" />
+                    <ComboBoxItem Content="3" />
+                    <ComboBoxItem Content="4" />
+                    <ComboBoxItem Content="5" />
+                    <ComboBoxItem Content="6" />
+                    <ComboBoxItem Content="7" />
+                    <ComboBoxItem Content="8" />
+                    <ComboBoxItem Content="9" />
+                    <ComboBoxItem Content="10" />
+                    <ComboBoxItem Content="11" />
+                    <ComboBoxItem Content="12" />
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Column="2" Margin="5,0,5,0" VerticalAlignment="Center" Height="54">
+                <TextBlock Text="Năm:" VerticalAlignment="Center" Margin="5" FontSize="20" FontWeight="Bold" />
+                <ComboBox x:Name="cbNam" Width="129" Margin="5" Height="44" SelectionChanged="cbNam_SelectionChanged" FontSize="20" FontWeight="Bold">
+                    <ComboBoxItem Content="2023" />
+                    <ComboBoxItem Content="2024" />
+                    <ComboBoxItem Content="2025" />
+                </ComboBox>
+            </StackPanel>
+
+
+            <!-- Filter by Shift Type -->
+            <StackPanel Orientation="Horizontal" Grid.Column="3" Margin="5,0,5,0" VerticalAlignment="Center" Height="54">
+                <TextBlock Text="Loại Ca:" VerticalAlignment="Center" Margin="5" FontSize="20" FontWeight="Bold" />
+                <ComboBox x:Name="cbLoaiCa" Width="129" Margin="5" Height="44" FontSize="20" FontWeight="Bold" SelectionChanged="cbLoaiCa_SelectionChanged">
+                    <ComboBoxItem Content="Tất cả" />
+                    <ComboBoxItem Content="MAL01" />
+                    <ComboBoxItem Content="MAL02" />
+                    <ComboBoxItem Content="MAL03" />
+                    <ComboBoxItem Content="MAL04" />
+                </ComboBox>
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Column="4" Margin="5,0,5,0" VerticalAlignment="Center" Height="54">
+                <TextBlock Text="Trạng thái :" VerticalAlignment="Center" Margin="5" FontSize="20" FontWeight="Bold" />
+                <ComboBox x:Name="cbTrangThai" Width="129" Margin="5" Height="44" SelectionChanged="cbTrangThai_SelectionChanged" FontSize="20" FontWeight="Bold">
+                    <ComboBoxItem Content="Tất cả" />
+                    <ComboBoxItem Content="Đi Làm"/>
+                    <ComboBoxItem Content="Nghỉ có phép"/>
+                    <ComboBoxItem Content="Nghỉ không lương"/>
+                    <ComboBoxItem Content="Nghỉ nửa ngày không lương"/>
+                    <ComboBoxItem Content="Nghỉ chủ nhật"/>
+                    <ComboBoxItem Content="Nghỉ lễ"/>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <!-- DataGrid for Overtime Records -->
+        <DataGrid x:Name="TangCaDataGrid" 
+                  AutoGenerateColumns="False" 
+                  Margin="3,71,10,10" FontSize="20" FontWeight="Bold"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto" Grid.RowSpan="4">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã Chấm Công" Binding="{Binding MaChamCong}" Width="*" />
+                <DataGridTextColumn Header="Mã Nhân Viên" Binding="{Binding MANV}" Width="*" />
+                <DataGridTextColumn Header="Ngày Chấm Công" Binding="{Binding NgayChamCong}" Width="*" />
+                <DataGridTextColumn Header="Trạng Thái" Binding="{Binding TrangThai}" Width="*" />
+                <DataGridTextColumn Header="Mã Loại Ca" Binding="{Binding MaLoaiCa}" Width="*" />
+                <DataGridTextColumn Header="Số Giờ" Binding="{Binding SoGio}" Width="*" />
+                <DataGridTextColumn Header="Hệ Số Loại Ca" Binding="{Binding HeSoLoaiCa}" Width="*" />
+                <DataGridTextColumn Header="Lương Ngày" Binding="{Binding LuongNgay}" Width="*" />
+                <DataGridTextColumn Header="Ghi Chú" Binding="{Binding GhiChu}" Width="*" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</UserControl>

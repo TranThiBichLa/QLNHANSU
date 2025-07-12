@@ -4,3 +4,28 @@ D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\D
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.dll
 D:\NĂM 2-HK1\LẬP TRÌNH TRỰC QUAN\quản lí nhân sự WPS\DTO\obj\Debug\DTO.pdb
+D:\QLNHANSU\DTO\bin\Debug\DTO.dll
+D:\QLNHANSU\DTO\bin\Debug\DTO.pdb
+D:\QLNHANSU\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\QLNHANSU\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\QLNHANSU\DTO\obj\Debug\DTO.dll
+D:\QLNHANSU\DTO\obj\Debug\DTO.pdb
+D:\QLNHANSU (1)\DTO\bin\Debug\DTO.dll
+D:\QLNHANSU (1)\DTO\bin\Debug\DTO.pdb
+D:\QLNHANSU (1)\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\QLNHANSU (1)\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\QLNHANSU (1)\DTO\obj\Debug\DTO.dll
+D:\QLNHANSU (1)\DTO\obj\Debug\DTO.pdb
+D:\QLNHANSU_FINAL\DTO\bin\Debug\DTO.dll
+D:\QLNHANSU_FINAL\DTO\bin\Debug\DTO.pdb
+D:\QLNHANSU_FINAL\DTO\bin\Debug\LiveCharts.dll
+D:\QLNHANSU_FINAL\DTO\bin\Debug\LiveCharts.Wpf.dll
+D:\QLNHANSU_FINAL\DTO\bin\Debug\LiveCharts.pdb
+D:\QLNHANSU_FINAL\DTO\bin\Debug\LiveCharts.xml
+D:\QLNHANSU_FINAL\DTO\bin\Debug\LiveCharts.Wpf.pdb
+D:\QLNHANSU_FINAL\DTO\bin\Debug\LiveCharts.Wpf.xml
+D:\QLNHANSU_FINAL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\QLNHANSU_FINAL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\QLNHANSU_FINAL\DTO\obj\Debug\DTO.csproj.Up2Date
+D:\QLNHANSU_FINAL\DTO\obj\Debug\DTO.dll
+D:\QLNHANSU_FINAL\DTO\obj\Debug\DTO.pdb
